@@ -1,0 +1,7 @@
+import{j as m,a as e}from"./emotion-react-jsx-runtime.browser.esm-1facf72c.js";import{P as r}from"./progress-13b6aef3.js";import{S as a}from"./space-2352af65.js";import"./index-1cdf6ce0.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-d9790902.js";import"./style-057b38ff.js";import"./color-palette-383d9c5d.js";import"./index-45a08ae3.js";import"./warning-circle-bbfc1144.js";import"./create-icon-4c10c9da.js";import"./success-89a9fa12.js";import"./warning-32e363e0.js";import"./trigger-9e85331e.js";import"./trigger-context-e9ca2c5c.js";import"./index-a01a9712.js";import"./motion-96d4cd12.js";import"./use-isomorphic-effect-9dbdc9b0.js";import"./animate-4e967d14.js";import"./index-a6d290df.js";import"./divider-3400a231.js";const D={title:"FEEDBACK/Progress",component:r},o=i=>m(a,{direction:"vertical",children:[e(r,{type:"line",...i}),e(r,{type:"circle",...i}),e(r,{type:"miniCircle",...i}),e(r,{type:"miniRing",...i})]});var t,s,p;o.parameters={...o.parameters,docs:{...(t=o.parameters)==null?void 0:t.docs,source:{originalSource:`args => <Space direction="vertical">
+    <Progress type="line" {...args} />
+    <Progress type="circle" {...args} />
+    <Progress type="miniCircle" {...args} />
+    <Progress type="miniRing" {...args} />
+  </Space>`,...(p=(s=o.parameters)==null?void 0:s.docs)==null?void 0:p.source}}};const F=["Basic"];export{o as Basic,F as __namedExportsOrder,D as default};
+//# sourceMappingURL=progress.stories-3c9faf1b.js.map

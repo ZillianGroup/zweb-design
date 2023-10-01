@@ -1,0 +1,4 @@
+import{a}from"./emotion-react-jsx-runtime.browser.esm-1facf72c.js";import{B as m}from"./index.esm-52d37734.js";import{b as e}from"./radio-e4724c11.js";import"./index-1cdf6ce0.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-d9790902.js";import"./iconBase-4112cc44.js";import"./style-057b38ff.js";import"./color-palette-383d9c5d.js";import"./index-45a08ae3.js";import"./use-merge-value-fcf53e13.js";import"./is-47f46886.js";import"./use-previous-5c929b6e.js";const A={title:"DATA INPUT/Radio",component:e},p=s=>a(e,{...s,children:"ZWEB"}),o=p.bind({icon:a(m,{})});var r,t,i;o.parameters={...o.parameters,docs:{...(r=o.parameters)==null?void 0:r.docs,source:{originalSource:`Template.bind({
+  icon: <BsFacebook />
+})`,...(i=(t=o.parameters)==null?void 0:t.docs)==null?void 0:i.source}}};const E=["Basic"];export{o as Basic,E as __namedExportsOrder,A as default};
+//# sourceMappingURL=radio.stories-81e406a5.js.map

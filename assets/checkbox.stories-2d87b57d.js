@@ -1,0 +1,4 @@
+import{a as i}from"./emotion-react-jsx-runtime.browser.esm-1facf72c.js";import{C as s}from"./checkbox-e2f09dba.js";import"./index-1cdf6ce0.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-d9790902.js";import"./style-057b38ff.js";import"./color-palette-383d9c5d.js";import"./index-45a08ae3.js";import"./reduce-1133ecb0.js";import"./create-icon-4c10c9da.js";import"./success-89a9fa12.js";import"./use-merge-value-fcf53e13.js";import"./is-47f46886.js";import"./use-previous-5c929b6e.js";const f={title:"DATA INPUT/Checkbox",component:s},r=m=>i(s,{...m,children:"ZWEB"});var o,t,e;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`args => {
+  return <Checkbox {...args}>ZWEB</Checkbox>;
+}`,...(e=(t=r.parameters)==null?void 0:t.docs)==null?void 0:e.source}}};const g=["Basic"];export{r as Basic,g as __namedExportsOrder,f as default};
+//# sourceMappingURL=checkbox.stories-2d87b57d.js.map
