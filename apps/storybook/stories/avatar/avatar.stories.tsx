@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Avatar, AvatarProps } from "@illa-design/react"
+import { Avatar, AvatarProps } from "@zweb-design/react"
 import { BsFacebook } from "react-icons/bs"
 
 //👇 This default export determines where your story goes in the story list

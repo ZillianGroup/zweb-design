@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/table",
+  "name": "@zweb-design/table",
   "version": "1.0.31",
-  "description": "Illa Design Table.",
+  "description": "ZWeb Design Table.",
   "keywords": [
     "table",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "ILLA Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,27 +30,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/table"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build"
   },
   "dependencies": {
-    "@illa-design/button": "workspace:*",
-    "@illa-design/checkbox": "workspace:*",
-    "@illa-design/empty": "workspace:*",
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/input": "workspace:*",
-    "@illa-design/pagination": "workspace:*",
-    "@illa-design/select": "workspace:*",
-    "@illa-design/spin": "workspace:*",
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
-    "@illa-design/trigger": "workspace:*",
+    "@zweb-design/button": "workspace:*",
+    "@zweb-design/checkbox": "workspace:*",
+    "@zweb-design/empty": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/input": "workspace:*",
+    "@zweb-design/pagination": "workspace:*",
+    "@zweb-design/select": "workspace:*",
+    "@zweb-design/spin": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
+    "@zweb-design/trigger": "workspace:*",
     "@tanstack/match-sorter-utils": "^8.8.4",
     "@tanstack/react-table": "^8.9.1",
     "chroma-js": "^2.1.2",

@@ -10,7 +10,7 @@ import {
   Input,
   MessageGroup,
   useMessage,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 export default {
   title: "FEEDBACK/Modal",
@@ -64,7 +64,7 @@ const Template: StoryFn<ModalProps> = (args) => {
           onCancel={() => setVisible(false)}
           onOk={onOk}
         >
-          ILLA very good!
+          ZWEB very good!
         </Modal>
         <Space size={"large"} direction={"vertical"}>
           <Button

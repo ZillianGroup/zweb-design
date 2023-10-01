@@ -7,7 +7,7 @@ import {
   applyHorizontalSubMenuIcon,
   horizontalSubMenuLabel,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const HorizontalMenuItem = forwardRef<HTMLDivElement, MenuItemProps>(
   (props, ref) => {

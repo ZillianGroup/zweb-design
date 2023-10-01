@@ -4,7 +4,7 @@ import {
   Collapse,
   CollapseItem,
   CollapseProps,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 export default {
   title: "DATA DISPLAY/Collapse",

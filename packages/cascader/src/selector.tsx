@@ -11,10 +11,10 @@ import {
   selectorContainerStyle,
   selectorSingleItemTextStyle,
 } from "./style"
-import { Checkbox } from "@illa-design/checkbox"
-import { NextIcon } from "@illa-design/icon"
+import { Checkbox } from "@zweb-design/checkbox"
+import { NextIcon } from "@zweb-design/icon"
 import { traversalOptions } from "./util"
-import { Empty } from "@illa-design/empty"
+import { Empty } from "@zweb-design/empty"
 
 function getTreeNumber(cascader: CascaderOptionObject): number {
   if (cascader.children === undefined || cascader.children.length === 0) {

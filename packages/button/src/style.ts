@@ -5,7 +5,7 @@ import {
   ButtonSize,
   ButtonVariant,
 } from "./interface"
-import { getColor, zIndex } from "@illa-design/theme"
+import { getColor, zIndex } from "@zweb-design/theme"
 
 // button
 export function applyTagContainer(

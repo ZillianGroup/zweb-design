@@ -1,6 +1,6 @@
 import { HTMLAttributes, MouseEvent, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
-import { TriggerPosition } from "@illa-design/trigger"
+import { BoxProps } from "@zweb-design/theme"
+import { TriggerPosition } from "@zweb-design/trigger"
 import { BarLocation } from "./content"
 
 export type SliderColorScheme =

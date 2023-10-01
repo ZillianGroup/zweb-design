@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/input",
+  "name": "@zweb-design/input",
   "version": "1.0.31",
-  "description": "Illa Design Input.",
+  "description": "ZWeb Design Input.",
   "keywords": [
     "input",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "ILLA Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,19 +30,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/input"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build"
   },
   "dependencies": {
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
     "framer-motion": "^7.6.12"
   },
   "peerDependencies": {

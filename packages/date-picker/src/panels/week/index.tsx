@@ -2,7 +2,7 @@ import { FC, useCallback } from "react"
 import { WeekPickerPanelProps } from "./interface"
 import { Dayjs } from "dayjs"
 import { DatePickerPanel } from "../date"
-import { dayjsPro } from "@illa-design/system"
+import { dayjsPro } from "@zweb-design/system"
 
 export const WeekPickerPanel: FC<WeekPickerPanelProps> = (props) => {
   const {

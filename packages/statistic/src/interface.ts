@@ -1,6 +1,6 @@
 import { CSSProperties, HTMLAttributes, ReactNode } from "react"
 import { Dayjs } from "dayjs"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export interface StatisticProps
   extends Omit<HTMLAttributes<HTMLElement>, "title" | "prefix">,

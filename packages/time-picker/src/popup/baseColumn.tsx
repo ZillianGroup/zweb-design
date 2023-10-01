@@ -1,6 +1,6 @@
 import { FC, useCallback, useEffect, useRef } from "react"
 import { TimeColumnProps } from "./interface"
-import { usePrevious } from "@illa-design/system"
+import { usePrevious } from "@zweb-design/system"
 import debounce from "lodash.debounce"
 import {
   applyCellStyle,

@@ -1,13 +1,13 @@
 import { forwardRef, useCallback, useEffect, useRef, useState } from "react"
-import { UpIcon } from "@illa-design/icon"
-import { Button } from "@illa-design/button"
+import { UpIcon } from "@zweb-design/icon"
+import { Button } from "@zweb-design/button"
 import {
   throttleByRaf,
   isFunction,
   raf,
   caf,
   easingMethod,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import { BackTopProps } from "./interface"
 import {
   applyFixedStyle,
@@ -15,7 +15,7 @@ import {
   opacityTransition,
   pointerStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const BackTop = forwardRef<HTMLDivElement, BackTopProps>(
   (props, ref) => {

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Space, RateProps, Rate } from "@illa-design/react"
+import { Space, RateProps, Rate } from "@zweb-design/react"
 
 export default {
   title: "DATA INPUT/Rate",

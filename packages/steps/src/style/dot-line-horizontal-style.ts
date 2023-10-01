@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { StepsStatus, StepsType } from "../interface"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export function applyHorizontalStepContainerStyle(
   canClick?: boolean,

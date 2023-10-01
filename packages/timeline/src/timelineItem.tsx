@@ -9,7 +9,7 @@ import {
   applyDotWrapperStyle,
   applyItemContentStyle,
 } from "./styles"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 const modeHandle = (
   mode: string,

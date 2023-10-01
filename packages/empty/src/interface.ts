@@ -1,5 +1,5 @@
 import { ReactNode, HTMLAttributes } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export interface EmptyProps extends HTMLAttributes<HTMLDivElement>, BoxProps {
   description?: ReactNode

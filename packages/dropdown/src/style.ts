@@ -1,13 +1,13 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
-import { TriggerColorScheme } from "@illa-design/trigger"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
+import { TriggerColorScheme } from "@zweb-design/trigger"
 
 export function applyListCss(): SerializedStyles {
   return css`
     position: relative;
     border-radius: 8px;
     overflow: auto;
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     padding: 8px 0;
   `
 }
@@ -32,7 +32,7 @@ export function applyItemCss(
 
   const disabledCss = css`
     cursor: not-allowed;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
   `
 
   const selectedStyle = css`

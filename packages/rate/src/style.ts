@@ -1,4 +1,4 @@
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import { css, keyframes, SerializedStyles } from "@emotion/react"
 
 export const rateScale = keyframes`
@@ -50,7 +50,7 @@ export function applyRateCharacter(
   return css`
     position: relative;
     transition: transform 0.15s ease-in-out;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     ${cursor};
     ${animation};
     &:hover {
@@ -64,8 +64,8 @@ export function applyRateCharacterLeft(
   isStar?: boolean,
 ): SerializedStyles {
   const color = isStar
-    ? `${globalColor(`--${illaPrefix}-yellow-04`)}`
-    : `${globalColor(`--${illaPrefix}-red-03`)}`
+    ? `${globalColor(`--${zwebPrefix}-yellow-04`)}`
+    : `${globalColor(`--${zwebPrefix}-red-03`)}`
   return css`
     position: absolute;
     top: 0;
@@ -87,8 +87,8 @@ export function applyRateCharacterRight(
   isStar?: boolean,
 ): SerializedStyles {
   const color = isStar
-    ? `${globalColor(`--${illaPrefix}-yellow-04`)}`
-    : `${globalColor(`--${illaPrefix}-red-03`)}`
+    ? `${globalColor(`--${zwebPrefix}-yellow-04`)}`
+    : `${globalColor(`--${zwebPrefix}-red-03`)}`
   return css`
     transition: inherit;
     color: ${isFull ? `${color}` : ""};

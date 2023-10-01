@@ -1,6 +1,6 @@
 import { HTMLAttributes, MouseEvent, ReactNode } from "react"
-import { BreadcrumbProps } from "@illa-design/breadcrumb"
-import { BoxProps } from "@illa-design/theme"
+import { BreadcrumbProps } from "@zweb-design/breadcrumb"
+import { BoxProps } from "@zweb-design/theme"
 
 export interface PageHeaderProps
   extends Omit<HTMLAttributes<HTMLDivElement>, "title">,

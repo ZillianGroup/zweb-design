@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Password, PasswordProps } from "@illa-design/react"
+import { Password, PasswordProps } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

@@ -13,7 +13,7 @@ import {
 } from "./style"
 import { css } from "@emotion/react"
 import { TableContext } from "./table-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import debounce from "lodash.debounce"
 
 export const Td = forwardRef<HTMLTableDataCellElement, TdProps>(

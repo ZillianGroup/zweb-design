@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, zIndex } from "@illa-design/theme"
+import { getColor, zIndex } from "@zweb-design/theme"
 
 export const messageContainerStyle: SerializedStyles = css`
   pointer-events: visible;

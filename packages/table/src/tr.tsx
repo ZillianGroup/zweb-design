@@ -1,6 +1,6 @@
 import { forwardRef, useContext } from "react"
 import { TrProps } from "./interface"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { TableContext } from "./table-context"
 import {
   applyBgHoverStyle,

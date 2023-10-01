@@ -6,7 +6,7 @@ import {
   Button,
   Statistic,
   StatisticProps,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 import { useRef, ElementRef } from "react"
 
 export default {

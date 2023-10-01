@@ -1,8 +1,8 @@
 import { useCallback, useContext } from "react"
 import { STATUS, CustomIconType, UploadListItemProps } from "../interface"
-import { isObject, isFunction } from "@illa-design/system"
+import { isObject, isFunction } from "@zweb-design/system"
 import UploadProgress from "./uploadProgress"
-import { DeleteIcon } from "@illa-design/icon"
+import { DeleteIcon } from "@zweb-design/icon"
 import {
   errorListItemStyle,
   getTextItemContainerStyle,
@@ -20,7 +20,7 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 
 const TextItem = (props: UploadListItemProps) => {
   const { disabled, file, onRemove } = props

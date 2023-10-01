@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { InputColorScheme, InputSize, InputVariant } from "./interface"
-import { getColor, getColorShadow, zIndex } from "@illa-design/theme"
+import { getColor, getColorShadow, zIndex } from "@zweb-design/theme"
 
 function getPaddingStyle(size: InputSize): SerializedStyles {
   let pdStyle = css``

@@ -1,6 +1,6 @@
 import { css } from "@emotion/react"
-import { TriggerColorScheme } from "@illa-design/trigger"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { TriggerColorScheme } from "@zweb-design/trigger"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const applyTypographyContainer = css`
   display: flex;
@@ -11,8 +11,8 @@ export const applyTypographyContainer = css`
 export function applyTitleColor(colorScheme: TriggerColorScheme) {
   const textColor =
     colorScheme == "white"
-      ? globalColor(`--${illaPrefix}-grayBlue-02`)
-      : globalColor(`--${illaPrefix}-white-02`)
+      ? globalColor(`--${zwebPrefix}-grayBlue-02`)
+      : globalColor(`--${zwebPrefix}-white-02`)
   return css`
     color: ${textColor};
   `

@@ -1,8 +1,8 @@
 import { ReactNode } from "react"
-import { TriggerPosition, TriggerProps } from "@illa-design/trigger"
-import { DayjsPro } from "@illa-design/system"
+import { TriggerPosition, TriggerProps } from "@zweb-design/trigger"
+import { DayjsPro } from "@zweb-design/system"
 import { InputColorScheme, InputSize } from "./input/interface"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type TimePickerValue = DayjsPro | Date | string | number
 

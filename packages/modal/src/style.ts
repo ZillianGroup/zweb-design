@@ -1,6 +1,6 @@
 import { ModalAlignType } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, globalColor, illaPrefix, zIndex } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix, zIndex } from "@zweb-design/theme"
 import { Variants } from "framer-motion"
 
 export function applyModalMask(z?: string | number): SerializedStyles {
@@ -50,8 +50,8 @@ export function applyModal(): SerializedStyles {
     width: 520px;
     margin: 24px auto;
     border-radius: 8px;
-    border: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    border: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
   `
 }
 
@@ -62,7 +62,7 @@ export function applyModalHeader(
   let border = css``
   if (!withoutLine) {
     border = css`
-      border-bottom: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+      border-bottom: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     `
   }
 
@@ -89,7 +89,7 @@ export function applyModalTitle(): SerializedStyles {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   `
 }
 
@@ -121,7 +121,7 @@ export const modalCloseIconStyle = css`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
 `
 
 export function applyModalFooter(
@@ -136,7 +136,7 @@ export function applyModalFooter(
   const line = withoutLine
     ? css``
     : css`
-        border-top: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+        border-top: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
       `
   return css`
     text-align: right;

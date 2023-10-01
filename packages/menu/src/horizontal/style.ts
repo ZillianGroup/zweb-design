@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { MenuColorScheme, MenuHorizontalAlign } from "../interface"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export const horizontalMenuContainerStyle = css`
   height: 48px;

@@ -1,5 +1,5 @@
 import { FilterFn, FilterMeta, Table } from "@tanstack/react-table"
-import { dayjsPro, isString } from "@illa-design/system"
+import { dayjsPro, isString } from "@zweb-design/system"
 import { FilterOperator } from "./interface"
 
 export const transformTableIntoCsvData = (

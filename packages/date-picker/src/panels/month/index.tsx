@@ -5,15 +5,15 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import { Dayjs } from "dayjs"
 import { padStart } from "../../utils/pad"
 import { BasicBodySection } from "../basic-body-section"
 import { monthPanelStyle } from "./style"
 import { BasicHeaderSection } from "../basic-header-section"
-import { NextDoubleIcon, PreviousDoubleIcon } from "@illa-design/icon"
+import { NextDoubleIcon, PreviousDoubleIcon } from "@zweb-design/icon"
 import { YearPickerPanel } from "../year"
-import { dayjsPro } from "@illa-design/system"
+import { dayjsPro } from "@zweb-design/system"
 
 const MONTHS = [
   "January",

@@ -6,7 +6,7 @@ import {
   applyDividerContainerVertical,
 } from "./style"
 import { DividerWithText } from "./dividerWithText"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Divider = forwardRef<HTMLDivElement, DividerProps>(
   (props, ref) => {

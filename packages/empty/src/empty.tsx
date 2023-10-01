@@ -1,19 +1,19 @@
 import { forwardRef, useContext } from "react"
-import { Image } from "@illa-design/image"
-import { EmptyIcon } from "@illa-design/icon"
+import { Image } from "@zweb-design/image"
+import { EmptyIcon } from "@zweb-design/icon"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import { applyDescriptionStyle, applyEmptyContainerStyle } from "./style"
 import { EmptyProps } from "./interface"
 import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 
 export const Empty = forwardRef<HTMLDivElement, EmptyProps>((props, ref) => {
   const configProviderProps = useContext<ConfigProviderProps>(
@@ -25,7 +25,7 @@ export const Empty = forwardRef<HTMLDivElement, EmptyProps>((props, ref) => {
     icon = (
       <EmptyIcon
         size="48px"
-        color={globalColor(`--${illaPrefix}-grayBlue-04`)}
+        color={globalColor(`--${zwebPrefix}-grayBlue-04`)}
       />
     ),
     imgSrc,

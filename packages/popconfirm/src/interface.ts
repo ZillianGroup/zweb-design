@@ -1,6 +1,6 @@
 import { ReactNode } from "react"
-import { TriggerProps } from "@illa-design/trigger"
-import { ButtonColorScheme, ButtonProps } from "@illa-design/button"
+import { TriggerProps } from "@zweb-design/trigger"
+import { ButtonColorScheme, ButtonProps } from "@zweb-design/button"
 
 export interface PopconfirmProps
   extends Omit<TriggerProps, "content" | "hasCloseIcon" | "withoutPadding"> {

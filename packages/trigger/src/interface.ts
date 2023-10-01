@@ -1,4 +1,4 @@
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 import { MutableRefObject, ReactNode, RefObject, SyntheticEvent } from "react"
 
 export type TriggerColorScheme =

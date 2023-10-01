@@ -1,7 +1,7 @@
 import { HTMLAttributes, ReactNode, SyntheticEvent } from "react"
-import { BoxProps } from "@illa-design/theme"
-import { DropdownProps } from "@illa-design/dropdown"
-import { TriggerTrigger } from "@illa-design/trigger"
+import { BoxProps } from "@zweb-design/theme"
+import { DropdownProps } from "@zweb-design/dropdown"
+import { TriggerTrigger } from "@zweb-design/trigger"
 
 export type SelectSize = "small" | "medium" | "large"
 

@@ -1,9 +1,9 @@
 import { forwardRef } from "react"
 import { PasswordProps } from "./interface"
 import { Input } from "./input"
-import { useMergeValue } from "@illa-design/system"
-import { EyeOffIcon, EyeOnIcon } from "@illa-design/icon"
-import { getColor } from "@illa-design/theme"
+import { useMergeValue } from "@zweb-design/system"
+import { EyeOffIcon, EyeOnIcon } from "@zweb-design/icon"
+import { getColor } from "@zweb-design/theme"
 
 export const Password = forwardRef<HTMLInputElement, PasswordProps>(
   (props, ref) => {

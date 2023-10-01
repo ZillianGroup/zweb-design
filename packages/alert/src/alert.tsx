@@ -7,7 +7,7 @@ import {
   InfoCircleIcon,
   SuccessCircleIcon,
   WarningCircleIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import {
   applyAlertContainer,
   closeIconStyle,
@@ -18,7 +18,7 @@ import {
   leftIconStyle,
   titleStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 const variants = {
   enter: {

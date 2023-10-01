@@ -1,7 +1,7 @@
 import { forwardRef, useRef } from "react"
 import { SearchProps } from "./interface"
 import { Input } from "./input"
-import { LoadingIcon, SearchIcon } from "@illa-design/icon"
+import { LoadingIcon, SearchIcon } from "@zweb-design/icon"
 import { searchIconContainer } from "./style"
 
 export const Search = forwardRef<HTMLInputElement, SearchProps>(

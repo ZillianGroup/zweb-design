@@ -8,9 +8,9 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
-import { CloseIcon } from "@illa-design/icon"
-import { Button } from "@illa-design/button"
+} from "@zweb-design/config-provider"
+import { CloseIcon } from "@zweb-design/icon"
+import { Button } from "@zweb-design/button"
 import {
   applyDrawerCloseIcon,
   applyDrawerFooter,
@@ -25,7 +25,7 @@ import {
   fullStyle,
   maskAnimation,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Drawer = forwardRef<HTMLDivElement, DrawerProps>((props, ref) => {
   const {

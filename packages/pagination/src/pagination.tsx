@@ -19,16 +19,16 @@ import {
   selectorContainerStyle,
   totalStyle,
 } from "./style"
-import { isFunction, useMergeValue } from "@illa-design/system"
+import { isFunction, useMergeValue } from "@zweb-design/system"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
-import { MoreIcon, NextIcon, PreviousIcon } from "@illa-design/icon"
+} from "@zweb-design/config-provider"
+import { MoreIcon, NextIcon, PreviousIcon } from "@zweb-design/icon"
 import { css } from "@emotion/react"
-import { Select } from "@illa-design/select"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { Select } from "@zweb-design/select"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Pagination = forwardRef<HTMLDivElement, PaginationProps>(
   (props, ref) => {

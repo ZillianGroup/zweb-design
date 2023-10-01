@@ -28,14 +28,14 @@ import {
   useReactTable,
   ColumnSizingState,
 } from "@tanstack/react-table"
-import { Checkbox } from "@illa-design/checkbox"
+import { Checkbox } from "@zweb-design/checkbox"
 import {
   customGlobalFn,
   downloadDataAsCSV,
   transformRawDataIntoCsvData,
   transformTableIntoCsvData,
 } from "./utils"
-import { isNumber, isString } from "@illa-design/system"
+import { isNumber, isString } from "@zweb-design/system"
 import {
   applyActionButtonStyle,
   applyBorderedStyle,
@@ -51,8 +51,8 @@ import {
   tableResizerStyle,
   toolBarStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { Spin } from "@illa-design/spin"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { Spin } from "@zweb-design/spin"
 import { TableContext } from "./table-context"
 import { Thead } from "./thead"
 import { Tr } from "./tr"
@@ -63,13 +63,13 @@ import {
   SorterDownIcon,
   SorterUpIcon,
   RefreshIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import { TBody } from "./tbody"
 import { Td } from "./td"
-import { Empty } from "@illa-design/empty"
+import { Empty } from "@zweb-design/empty"
 import { TFoot } from "./tfoot"
-import { Button } from "@illa-design/button"
-import { Pagination } from "@illa-design/pagination"
+import { Button } from "@zweb-design/button"
+import { Pagination } from "@zweb-design/pagination"
 import { TableFilter } from "./table-filter"
 import { useClickAway } from "react-use"
 import { RawTip } from "./raw-tip"

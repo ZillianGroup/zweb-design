@@ -1,10 +1,10 @@
 import { FC, useCallback, useState } from "react"
-import { Button } from "@illa-design/button"
-import { FilterIcon } from "@illa-design/icon"
+import { Button } from "@zweb-design/button"
+import { FilterIcon } from "@zweb-design/icon"
 import { FilterOptionsState, TableFilterProps } from "./interface"
-import { isNumber } from "@illa-design/system"
+import { isNumber } from "@zweb-design/system"
 import { FiltersEditor } from "./filters-editor"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import { ColumnFilter } from "@tanstack/react-table"
 
 const getFilter = (filterOption: FilterOptionsState) => {

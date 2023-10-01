@@ -1,7 +1,7 @@
 import { forwardRef, HTMLAttributes } from "react"
 import { createPortal } from "react-dom"
 import { css, SerializedStyles } from "@emotion/react"
-import { BoxProps, deleteCssProps } from "@illa-design/theme"
+import { BoxProps, deleteCssProps } from "@zweb-design/theme"
 
 function applyPopupContainer(
   top: string,

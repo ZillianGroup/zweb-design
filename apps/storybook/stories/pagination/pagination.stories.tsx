@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Pagination, PaginationProps } from "@illa-design/react"
+import { Pagination, PaginationProps } from "@zweb-design/react"
 
 export default {
   title: "DATA DISPLAY/Pagination",

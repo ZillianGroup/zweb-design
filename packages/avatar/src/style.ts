@@ -1,4 +1,4 @@
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import {
   AvatarColorScheme,
   AvatarProps,
@@ -28,11 +28,11 @@ export function applyBgColor(colorScheme: AvatarColorScheme): SerializedStyles {
   if (colors.includes(colorScheme)) {
     if (colorScheme == "gray" || colorScheme == "grayBlue") {
       bgColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-${colorScheme}-05`)};
+        background-color: ${globalColor(`--${zwebPrefix}-${colorScheme}-05`)};
       `
     } else {
       bgColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-${colorScheme}-01`)};
+        background-color: ${globalColor(`--${zwebPrefix}-${colorScheme}-01`)};
       `
     }
   } else {
@@ -72,7 +72,7 @@ export function applyAvatarContainer(colorScheme: AvatarColorScheme) {
     overflow: hidden;
     word-wrap: break-word;
     white-space: nowrap;
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
     flex-direction: row;
     align-items: center;
     justify-content: center;

@@ -13,9 +13,9 @@ import {
   applySuffixStyle,
   applyWordLimitStyle,
 } from "./style"
-import { useMergeValue } from "@illa-design/system"
-import { ClearIcon } from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { useMergeValue } from "@zweb-design/system"
+import { ClearIcon } from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 
 export const Input = forwardRef<HTMLDivElement, InputProps>((props, ref) => {
   const {

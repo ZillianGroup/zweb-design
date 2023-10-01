@@ -1,6 +1,6 @@
 import { FC } from "react"
 import { BaseColumnProps } from "./interface"
-import { padStart } from "@illa-design/system"
+import { padStart } from "@zweb-design/system"
 import { BaseColumn } from "./baseColumn"
 
 export const HoursColumn: FC<BaseColumnProps> = (props) => {

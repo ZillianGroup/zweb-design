@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { BoxProps } from "./interface"
-import { omit } from "@illa-design/system"
+import { omit } from "@zweb-design/system"
 
 export function applyBoxStyle(props: BoxProps): SerializedStyles {
   return css`

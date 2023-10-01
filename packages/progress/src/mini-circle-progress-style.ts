@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { ProgressColorScheme } from "./interface"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export const applyCircleStatus = css`
   display: inline-flex;

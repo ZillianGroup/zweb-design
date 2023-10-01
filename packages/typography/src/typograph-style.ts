@@ -1,6 +1,6 @@
 import { HeadingLevel } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export function getHeadingSize(level: HeadingLevel): string[] {
   // font-size line-height

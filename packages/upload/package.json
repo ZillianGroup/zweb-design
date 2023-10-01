@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/upload",
+  "name": "@zweb-design/upload",
   "version": "1.0.31",
-  "description": "Illa Design Upload.",
+  "description": "ZWeb Design Upload.",
   "keywords": [
     "upload",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "illa Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "zweb Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,11 +30,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/upload"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build",
@@ -42,12 +42,12 @@
     "plop-icon": "pnpm dlx plop new-icon"
   },
   "dependencies": {
-    "@illa-design/button": "workspace:*",
-    "@illa-design/config-provider": "workspace:*",
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/progress": "workspace:*",
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
+    "@zweb-design/button": "workspace:*",
+    "@zweb-design/config-provider": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/progress": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
     "framer-motion": "^7.6.12",
     "uuid": "^8.3.2"
   },

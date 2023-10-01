@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { ProgressColorScheme } from "./interface"
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const applyProgressContainer = css`
   vertical-align: middle;
@@ -13,7 +13,7 @@ export const applyProgressText = css`
   margin-left: 8px;
   line-height: 14px;
   font-size: 14px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `
 
 export const applyStatusIcon = css`
@@ -48,7 +48,7 @@ export function applyLineProgress(
 ): SerializedStyles {
   let color
   if (colorScheme == "gray" || colorScheme == "grayBlue") {
-    color = globalColor(`--${illaPrefix}-${colorScheme}-02`)
+    color = globalColor(`--${zwebPrefix}-${colorScheme}-02`)
   } else {
     color = getColor(colorScheme, "03")
   }
@@ -72,7 +72,7 @@ export function applyLineProgressStep(
 ): SerializedStyles {
   let color
   if (colorScheme == "gray" || colorScheme == "grayBlue") {
-    color = globalColor(`--${illaPrefix}-${colorScheme}-02`)
+    color = globalColor(`--${zwebPrefix}-${colorScheme}-02`)
   } else {
     color = getColor(colorScheme, "03")
   }
@@ -99,7 +99,7 @@ export function applyLineProgressBg(
 ): SerializedStyles {
   let color
   if (trailColorScheme == "gray" || trailColorScheme == "grayBlue") {
-    color = globalColor(`--${illaPrefix}-${trailColorScheme}-08`)
+    color = globalColor(`--${zwebPrefix}-${trailColorScheme}-08`)
   } else {
     color = getColor(trailColorScheme, "06")
   }
@@ -120,7 +120,7 @@ export function applyLineProgressBgStep(
   let color
 
   if (trailColorScheme == "gray" || trailColorScheme == "grayBlue") {
-    color = globalColor(`--${illaPrefix}-${trailColorScheme}-08`)
+    color = globalColor(`--${zwebPrefix}-${trailColorScheme}-08`)
   } else {
     color = getColor(trailColorScheme, "06")
   }

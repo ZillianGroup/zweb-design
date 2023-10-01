@@ -4,7 +4,7 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import {
   applyBlockDayStyle,
   applyLineStyle,

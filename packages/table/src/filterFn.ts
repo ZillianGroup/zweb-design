@@ -1,6 +1,6 @@
 import { FilterOptionsMap } from "./utils"
 import { CustomFilterFn, FilterOptions } from "./interface"
-import { isObject, isString } from "@illa-design/system"
+import { isObject, isString } from "@zweb-design/system"
 
 export function isTableFilterFn(value: string): value is CustomFilterFn {
   return value in FilterOptionsMap

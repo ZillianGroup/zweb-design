@@ -1,1 +1,1 @@
-# @illa-design/{{lowerCase name}}
+# @zweb-design/{{lowerCase name}}

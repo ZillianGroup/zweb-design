@@ -10,7 +10,7 @@ import {
   Card,
   CardMeta,
   CardProps,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 export default {
   title: "DATA DISPLAY/Card",
@@ -71,7 +71,7 @@ const Template: StoryFn<CardProps> = (args) => {
           </span>,
         ]}
         avatar={<Button>123</Button>}
-        nickname="illa"
+        nickname="zweb"
         description={<>France is a land</>}
         {...args}
       />

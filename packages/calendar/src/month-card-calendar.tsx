@@ -1,6 +1,6 @@
 import { forwardRef, useContext } from "react"
 import { CardCalendarProps } from "./interface"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 import {
   applyMonthBlockStyle,
   monthCardContainerStyle,
@@ -12,14 +12,14 @@ import {
   applyDayCardTitleStyle,
   menuButtonStyle,
 } from "./styles/day-card-calendar-style"
-import { NextDoubleIcon, PreviousDoubleIcon } from "@illa-design/icon"
+import { NextDoubleIcon, PreviousDoubleIcon } from "@zweb-design/icon"
 import { applyDividerStyle } from "./style"
 import { getMonthString } from "./util"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 
 export const MonthCardCalendar = forwardRef<HTMLDivElement, CardCalendarProps>(
   (props, ref) => {

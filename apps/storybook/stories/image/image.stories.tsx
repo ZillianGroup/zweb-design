@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Image, ImageProps } from "@illa-design/react"
+import { Image, ImageProps } from "@zweb-design/react"
 import { BsTwitch } from "react-icons/bs"
 
 //👇 This default export determines where your story goes in the story list

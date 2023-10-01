@@ -1,5 +1,5 @@
 import { forwardRef, useMemo } from "react"
-import { isObject } from "@illa-design/system"
+import { isObject } from "@zweb-design/system"
 import {
   SkeletonImageProps,
   SkeletonProps,
@@ -8,7 +8,7 @@ import {
 import { SkeletonText } from "./skeleton-text"
 import { SkeletonImage } from "./skeleton-image"
 import { skeletonImageStyle, skeletonStyle, skeletonTextStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 function getProps(props: boolean | Object) {
   return isObject(props) ? props : {}

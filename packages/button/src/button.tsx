@@ -1,7 +1,7 @@
 import { Children, forwardRef } from "react"
 import { ButtonProps } from "./interface"
 import { css } from "@emotion/react"
-import { LoadingIcon } from "@illa-design/icon"
+import { LoadingIcon } from "@zweb-design/icon"
 import {
   applyBg,
   applyCursor,
@@ -16,7 +16,7 @@ import {
   applyWithoutTextSize,
 } from "./style"
 import { ButtonGroupContext } from "."
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {

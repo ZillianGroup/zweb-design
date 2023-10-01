@@ -6,8 +6,8 @@ import {
   applyContainerStyle,
   applyTableStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { Spin } from "@illa-design/spin"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { Spin } from "@zweb-design/spin"
 import { TableContext } from "./table-context"
 
 export function RenderDirectTable<D extends TableData, TValue>(

@@ -1,5 +1,5 @@
 import { css } from "@emotion/react"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 import { TabAlign, TabPosition, TabsSize, TabVariant } from "./interface"
 import { isHorizontalLayout } from "./utils"
 

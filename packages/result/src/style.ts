@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export function applyWrapStyle(paddingVertical: string) {
   return css`
@@ -15,7 +15,7 @@ export const titleCss = css`
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
 `
 
 export const subTitleCss = css`
@@ -23,7 +23,7 @@ export const subTitleCss = css`
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
 `
 
 export const extraContainerStyle = css`
@@ -35,28 +35,28 @@ export function applyIconContainer(status?: string): SerializedStyles {
   switch (status) {
     case "success":
       iconColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-green-07`)};
-        color: ${globalColor(`--${illaPrefix}-green-03`)};
+        background-color: ${globalColor(`--${zwebPrefix}-green-07`)};
+        color: ${globalColor(`--${zwebPrefix}-green-03`)};
         font-size: 14px;
       `
       break
     case "error":
       iconColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-red-07`)};
-        color: ${globalColor(`--${illaPrefix}-red-03`)};
+        background-color: ${globalColor(`--${zwebPrefix}-red-07`)};
+        color: ${globalColor(`--${zwebPrefix}-red-03`)};
         font-size: 10px;
       `
       break
     case "info":
       iconColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-blue-07`)};
-        color: ${globalColor(`--${illaPrefix}-blue-03`)};
+        background-color: ${globalColor(`--${zwebPrefix}-blue-07`)};
+        color: ${globalColor(`--${zwebPrefix}-blue-03`)};
       `
       break
     case "warning":
       iconColor = css`
-        background-color: ${globalColor(`--${illaPrefix}-orange-07`)};
-        color: ${globalColor(`--${illaPrefix}-orange-03`)};
+        background-color: ${globalColor(`--${zwebPrefix}-orange-07`)};
+        color: ${globalColor(`--${zwebPrefix}-orange-03`)};
       `
       break
     case "403":
@@ -65,7 +65,7 @@ export function applyIconContainer(status?: string): SerializedStyles {
       iconColor = css`
         width: 96px;
         height: 100%;
-        background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+        background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
 
         & > svg {
           width: 96px;

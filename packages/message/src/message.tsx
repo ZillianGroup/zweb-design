@@ -15,8 +15,8 @@ import {
   LoadingIcon,
   WarningCircleIcon,
   SuccessCircleIcon,
-} from "@illa-design/icon"
-import { applyBoxStyle, getColor } from "@illa-design/theme"
+} from "@zweb-design/icon"
+import { applyBoxStyle, getColor } from "@zweb-design/theme"
 import { messageStore } from "./message-store"
 import { motion } from "framer-motion"
 

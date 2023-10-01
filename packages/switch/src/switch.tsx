@@ -6,8 +6,8 @@ import {
   applySwitchText,
   applySwitchIcon,
 } from "./style"
-import { isObject } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { isObject } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
   (props, ref) => {

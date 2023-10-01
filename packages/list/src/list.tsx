@@ -1,11 +1,11 @@
 import { forwardRef, ReactNode } from "react"
 import { ListProps } from "./interface"
 import { applyBarStyle, applyListContainer, applyListItemOuter } from "./style"
-import { Divider } from "@illa-design/divider"
+import { Divider } from "@zweb-design/divider"
 import VirtualList from "rc-virtual-list"
-import { Text, Typography } from "@illa-design/typography"
+import { Text, Typography } from "@zweb-design/typography"
 import { css } from "@emotion/react"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const List = forwardRef<HTMLDivElement, ListProps<any>>((props, ref) => {
   const {

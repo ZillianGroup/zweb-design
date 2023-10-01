@@ -15,13 +15,13 @@ import {
   horizontalMenuContainerStyle,
   horizontalSubMenuLabel,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { MenuContext } from "../menu-context"
 import { HorizontalSubMenu } from "./horizontal-sub-menu"
 import { HorizontalMenuItem } from "./horizontal-menu-item"
-import { DropList, DropListItem } from "@illa-design/dropdown"
-import { mergeRefs, useMergeValue } from "@illa-design/system"
-import { NextIcon, PreviousIcon } from "@illa-design/icon"
+import { DropList, DropListItem } from "@zweb-design/dropdown"
+import { mergeRefs, useMergeValue } from "@zweb-design/system"
+import { NextIcon, PreviousIcon } from "@zweb-design/icon"
 import { AnimatePresence, motion } from "framer-motion"
 import useMeasure from "react-use-measure"
 

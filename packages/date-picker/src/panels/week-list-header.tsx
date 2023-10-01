@@ -3,7 +3,7 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import { weekListHeaderStyle, weekListItemStyle } from "./style"
 import { WeekListHeaderProps } from "./interface"
 

@@ -1,9 +1,9 @@
 import { ReactNode } from "react"
-import { TriggerPosition, TriggerProps } from "@illa-design/trigger"
+import { TriggerPosition, TriggerProps } from "@zweb-design/trigger"
 import { Dayjs } from "dayjs"
 import { InputColorScheme, InputSize } from "./input/interface"
-import { TimePickerProps, RangePickerProps } from "@illa-design/time-picker"
-import { BoxProps } from "@illa-design/theme"
+import { TimePickerProps, RangePickerProps } from "@zweb-design/time-picker"
+import { BoxProps } from "@zweb-design/theme"
 
 export type DatePickerModeType = "date" | "month" | "week" | "year" | "quarter"
 export type DatePickerValue = number | string | Date | Dayjs

@@ -7,7 +7,7 @@ import {
   applyCardHeaderExtra,
   applyCardHeaderTitle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Card = forwardRef<HTMLDivElement, CardProps>((props, ref) => {
   const {

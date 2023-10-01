@@ -1,11 +1,11 @@
 import { Children, forwardRef, ReactElement } from "react"
 import { TimelineProps } from "./interface"
-import { Spin } from "@illa-design/spin"
+import { Spin } from "@zweb-design/spin"
 import { TimelineItem } from "./timelineItem"
 import { TimelineContext } from "./timeline-context"
 import { applyWrapStyle } from "./styles"
 import { css } from "@emotion/react"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Timeline = forwardRef<HTMLDivElement, TimelineProps>(
   (props, ref) => {

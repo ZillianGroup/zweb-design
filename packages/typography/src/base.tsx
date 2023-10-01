@@ -21,16 +21,16 @@ import { css } from "@emotion/react"
 import { measureElement } from "./measure-element"
 import { BaseProps } from "./interface"
 import { Copyable, CopyableBuilder } from "./copyable-config"
-import { globalColor, illaPrefix } from "@illa-design/theme"
-import { Trigger } from "@illa-design/trigger"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
+import { Trigger } from "@zweb-design/trigger"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import useMeasure from "react-use-measure"
-import { SuccessCircleIcon, CopyIcon } from "@illa-design/icon"
-import { mergedToString } from "@illa-design/system"
+import { SuccessCircleIcon, CopyIcon } from "@zweb-design/icon"
+import { mergedToString } from "@zweb-design/system"
 
 function getEllipsis(
   configProviderProps: ConfigProviderProps,
@@ -88,12 +88,12 @@ function getCopyable(
   }
   if (originCopyable.copyIcon == undefined) {
     originCopyable.copyIcon = (
-      <CopyIcon color={globalColor(`--${illaPrefix}-grayBlue-01`)} />
+      <CopyIcon color={globalColor(`--${zwebPrefix}-grayBlue-01`)} />
     )
   }
   if (originCopyable.copiedIcon == undefined) {
     originCopyable.copiedIcon = (
-      <SuccessCircleIcon color={globalColor(`--${illaPrefix}-green-03`)} />
+      <SuccessCircleIcon color={globalColor(`--${zwebPrefix}-green-03`)} />
     )
   }
   return originCopyable

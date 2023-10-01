@@ -1,4 +1,4 @@
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import { css } from "@emotion/react"
 
 export function applyImageCss(
@@ -21,7 +21,7 @@ export function applyDefaultFallback(
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
     border-radius: ${radius};
     width: ${width};
     height: ${height};

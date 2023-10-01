@@ -1,6 +1,6 @@
 import { ChangeEvent, forwardRef, useContext } from "react"
-import { useMergeValue } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { useMergeValue } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { RadioProps } from "./interface"
 import { RadioGroupContext } from "./radio-group-context"
 import { applyRadioContainerCss, applyRadioCss, radioTextCss } from "./style"

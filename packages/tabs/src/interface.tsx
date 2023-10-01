@@ -1,5 +1,5 @@
 import { HTMLAttributes, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export declare type TabPosition = "left" | "right" | "top" | "bottom"
 export declare type TabAlign = "flex-start" | "center" | "flex-end"

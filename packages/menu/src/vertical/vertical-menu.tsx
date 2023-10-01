@@ -1,8 +1,8 @@
 import { forwardRef, ReactNode } from "react"
 import { MenuProps, SubMenuProps } from "../interface"
-import { useMergeValue } from "@illa-design/system"
+import { useMergeValue } from "@zweb-design/system"
 import { MenuContext } from "../menu-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import {
   applyVerticalSubMenuItemContainer,
   verticalMenuContainerStyle,

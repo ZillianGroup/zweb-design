@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
-import { SelectProps } from "@illa-design/select"
+import { BoxProps } from "@zweb-design/theme"
+import { SelectProps } from "@zweb-design/select"
 
 export type PaginationSize = "small" | "medium" | "large"
 export type PaginationItemType = "page" | "more" | "prev" | "next"

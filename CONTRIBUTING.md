@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for showing interest in contributing to ILLA, we think you are the best
+Thanks for showing interest in contributing to ZWEB, we think you are the best
 one!
 
 Here's the table of contents:
@@ -17,12 +17,12 @@ Here's the table of contents:
 ## Setup the Project
 
 1. Fork the repo (click the Fork button at the top right of
-   [this page](https://github.com/illacloud/illa-design)
+   [this page](https://github.com/zilliangroup/zweb-design)
 2. Clone your fork locally
 3. Setup all the dependencies and packages by running `pnpm install`.
 
 > If you have some problems, you can
-> [take an issue](https://github.com/illacloud/illa-design/issues/new/choose) or
+> [take an issue](https://github.com/zilliangroup/zweb-design/issues/new/choose) or
 > talk with others on [Discord](https://discord.gg/2tGBuJkgd6)
 
 ### Commands:
@@ -96,7 +96,7 @@ You can find it in "packages/{component name}"
 
 ## Make a Pull Request
 
-If you have some changes, you can make a pull request to let ILLA be better!
+If you have some changes, you can make a pull request to let ZWEB be better!
 
 ### Commit Convention
 

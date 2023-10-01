@@ -7,10 +7,10 @@ import {
   useState,
 } from "react"
 import { InputNumberProps } from "./interface"
-import { Input } from "@illa-design/input"
-import { DownIcon, MinusIcon, PlusIcon, UpIcon } from "@illa-design/icon"
-import { Space } from "@illa-design/space"
-import { isNumber } from "@illa-design/system"
+import { Input } from "@zweb-design/input"
+import { DownIcon, MinusIcon, PlusIcon, UpIcon } from "@zweb-design/icon"
+import { Space } from "@zweb-design/space"
+import { isNumber } from "@zweb-design/system"
 import {
   applyActionIconStyle,
   applyControlBlockStyle,

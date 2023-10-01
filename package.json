@@ -1,9 +1,9 @@
 {
-  "name": "illa-design",
+  "name": "zweb-design",
   "private": true,
-  "description": "illa UI Component",
-  "repository": "git@github.com:illacloud/illa-design.git",
-  "author": "ILLA Cloud <opensource@illasoft.com>",
+  "description": "zweb UI Component",
+  "repository": "git@github.com:zilliangroup/zweb-design.git",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
   "license": "Apache-2.0",
   "resolutions": {
     "graceful-fs": "4.2.9"

@@ -1,6 +1,6 @@
 import { css } from "@emotion/react"
 import { LinkColorScheme } from "./interface"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const colorSchemes: LinkColorScheme[] = [
   "white",
@@ -24,8 +24,8 @@ export function applyLinkContainer(
 ) {
   const hoverBgColor =
     colorScheme == "white"
-      ? globalColor(`--${illaPrefix}-white-06`)
-      : globalColor(`--${illaPrefix}-grayBlue-09`)
+      ? globalColor(`--${zwebPrefix}-white-06`)
+      : globalColor(`--${zwebPrefix}-grayBlue-09`)
   let hoverCss
   if (hoverable) {
     hoverCss = css`
@@ -54,10 +54,10 @@ export const applyLeftIcon = css`
 
 export function applyDisable(colorScheme: LinkColorScheme, disabled?: boolean) {
   const textColor = colorSchemes.includes(colorScheme)
-    ? globalColor(`--${illaPrefix}-${colorScheme}-02`)
+    ? globalColor(`--${zwebPrefix}-${colorScheme}-02`)
     : colorScheme
   const finalColor = disabled
-    ? globalColor(`--${illaPrefix}-${colorScheme}-05`)
+    ? globalColor(`--${zwebPrefix}-${colorScheme}-05`)
     : textColor
   const cursor = disabled ? "not-allowed" : "pointer"
   return css`

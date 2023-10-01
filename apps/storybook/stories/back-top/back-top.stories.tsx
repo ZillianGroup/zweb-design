@@ -1,6 +1,6 @@
 import { Meta, StoryFn } from "@storybook/react"
 import { BsFillArrowUpCircleFill } from "react-icons/bs"
-import { BackTop, BackTopProps } from "@illa-design/react"
+import { BackTop, BackTopProps } from "@zweb-design/react"
 
 const loremIpsum = `
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Ultricies integer quis auctor elit sed vulputate mi sit amet. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Facilisi etiam dignissim diam quis enim lobortis. Semper risus in hendrerit gravida rutrum quisque non tellus. Mauris sit amet massa vitae tortor condimentum lacinia quis. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. In eu mi bibendum neque egestas congue quisque egestas. Sodales ut etiam sit amet nisl purus in mollis.`

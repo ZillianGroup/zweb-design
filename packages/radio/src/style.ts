@@ -1,4 +1,4 @@
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 import {
   RadioColorScheme,
   RadioGroupDirection,
@@ -21,7 +21,7 @@ export function applyRadioSize(
     margin: auto 8px auto auto;
     width: 16px;
     height: 16px;
-    border: solid 2px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+    border: solid 2px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     cursor: pointer;
     transition: 0.15s all linear;
 
@@ -31,8 +31,8 @@ export function applyRadioSize(
 
     &:disabled {
       cursor: not-allowed;
-      border-color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+      border-color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
     }
 
     &:checked {
@@ -62,7 +62,7 @@ export function applyMergeCss(stateValue?: RadioStatus): SerializedStyles {
     justify-content: center;
     font-size: 14px;
     line-height: 22px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
     cursor: ${currentDisabled ? "not-allowed" : "pointer"};
   `
 }
@@ -108,7 +108,7 @@ export const disappear = css`
   left: 0;
 
   &:target {
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
   }
 `
 const getRadioButtonBorderRadiusBySize = (size: RadioSize) => {
@@ -138,8 +138,8 @@ export function applyRadioButtonContainer(
     align-items: center;
     gap: 1px;
     font-size: 14px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
     padding: 2px;
   `
 }
@@ -194,7 +194,7 @@ export function applyRadioButton(stateValue: RadioStatus): SerializedStyles {
     `
   } else if (stateValue?.disabled) {
     stateCss = css`
-      color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+      color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
       cursor: not-allowed;
     `
   } else if (stateValue?.checked) {
@@ -202,7 +202,7 @@ export function applyRadioButton(stateValue: RadioStatus): SerializedStyles {
       ${getRadioButtonCheckedBorderRadiusBySize(stateValue.size ?? "medium")};
       font-weight: 500;
       color: ${checkedColor};
-      background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+      background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
       box-shadow: 0px 0px 2px 0px rgba(29, 33, 41, 0.24);
 
       &::before,
@@ -214,7 +214,7 @@ export function applyRadioButton(stateValue: RadioStatus): SerializedStyles {
     stateCss = css`
       &:hover {
         border-radius: 7px;
-        background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+        background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
         box-shadow: 0px 0px 2px 0px rgba(29, 33, 41, 0.24);
       }
     `
@@ -252,7 +252,7 @@ export function applyRadioButton(stateValue: RadioStatus): SerializedStyles {
       display: block;
       height: ${stateValue?.size === "large" ? "16px" : "12px"};
       width: 1px;
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
       content: "";
       transition: all 0.1s linear;
     }

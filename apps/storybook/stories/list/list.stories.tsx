@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { List, ListItem, ListItemMeta, ListProps } from "@illa-design/react"
+import { List, ListItem, ListItemMeta, ListProps } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

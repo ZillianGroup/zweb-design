@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Drawer, DrawerProps, Button, Space } from "@illa-design/react"
+import { Drawer, DrawerProps, Button, Space } from "@zweb-design/react"
 import { useRef, useState } from "react"
 
 export default {

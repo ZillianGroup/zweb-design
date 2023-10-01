@@ -1,8 +1,8 @@
 import React, { forwardRef, useCallback } from "react"
 import { StepsProps, StepsStatus } from "./interface"
 import { applyStepsContainerStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { useMergeValue } from "@illa-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { useMergeValue } from "@zweb-design/system"
 import { NavigateStep } from "./navigate-step"
 import { DotStep } from "./dot-step"
 

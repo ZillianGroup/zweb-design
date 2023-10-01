@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix, zIndex } from "@illa-design/theme"
+import { globalColor, zwebPrefix, zIndex } from "@zweb-design/theme"
 import { Variants } from "framer-motion"
 import { DrawerPlacement } from "./interface"
 
@@ -13,7 +13,7 @@ export function applyDrawerStyle(
     width: ${w};
     height: ${h};
     position: absolute;
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
   `
 }
 
@@ -41,7 +41,7 @@ export const applyDrawerMask = css`
   height: 100%;
   top: 0;
   left: 0;
-  background-color: ${globalColor(`--${illaPrefix}-blackAlpha-04`)};
+  background-color: ${globalColor(`--${zwebPrefix}-blackAlpha-04`)};
 `
 
 export const applyDrawerHeader = css`
@@ -51,7 +51,7 @@ export const applyDrawerHeader = css`
   width: 100%;
   min-height: 40px;
   box-sizing: border-box;
-  border-bottom: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+  border-bottom: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
   flex-shrink: 0;
   flex-grow: 0;
 `
@@ -61,7 +61,7 @@ export const applyDrawerTitle = css`
   line-height: 1.5;
   font-weight: 500;
   text-align: center;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
 `
 
 export const applyDrawerCloseIcon = css`
@@ -70,7 +70,7 @@ export const applyDrawerCloseIcon = css`
   top: 18px;
   right: 20px;
   font-size: 8px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
   line-height: 0;
 `
 
@@ -82,7 +82,7 @@ export const applyDrawerFooter = css`
   flex-shrink: 0;
   text-align: right;
   padding: 8px 24px;
-  border-top: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+  border-top: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
 `
 
 export const applyModalCancelBtn = css`

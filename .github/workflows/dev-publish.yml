@@ -87,7 +87,7 @@ jobs:
       - name: Build storybook
         run: |
           pnpm bs
-          echo "design.illafamily.com" > "./apps/storybook/storybook-static/CNAME"
+          echo "design.zwebfamily.com" > "./apps/storybook/storybook-static/CNAME"
 
       - name: Deploy storybook to Github Pages
         uses: peaceiris/actions-gh-pages@v3

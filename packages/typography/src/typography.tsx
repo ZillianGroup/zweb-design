@@ -1,6 +1,6 @@
 import { forwardRef, HTMLAttributes } from "react"
 import { applyTypoContainer } from "./typograph-style"
-import { deleteCssProps } from "@illa-design/theme"
+import { deleteCssProps } from "@zweb-design/theme"
 
 export const Typography = forwardRef<HTMLElement, HTMLAttributes<HTMLElement>>(
   (props, ref) => {

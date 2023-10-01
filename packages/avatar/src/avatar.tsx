@@ -5,7 +5,7 @@ import { TextAvatar } from "./text-avatar"
 import { ImgAvatar } from "./img-avatar"
 import { css } from "@emotion/react"
 import { AvatarGroupContext } from "./avatar-group-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 const applyOuterCss = css`
   vertical-align: middle;

@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 import { CalendarColorScheme } from "../interface"
 
 export function applyYearBigCalendarContainerStyle(): SerializedStyles {

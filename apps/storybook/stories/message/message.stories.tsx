@@ -6,7 +6,7 @@ import {
   MessageGroup,
   MessageProps,
   useMessage,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 export default {
   title: "FEEDBACK/Message",

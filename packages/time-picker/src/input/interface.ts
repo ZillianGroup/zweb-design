@@ -5,7 +5,7 @@ import {
   MouseEvent,
   ReactNode,
 } from "react"
-import { DayjsPro } from "@illa-design/system"
+import { DayjsPro } from "@zweb-design/system"
 
 export type InputColorScheme =
   | string

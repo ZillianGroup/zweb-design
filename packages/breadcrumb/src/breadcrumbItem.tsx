@@ -1,9 +1,9 @@
 import { forwardRef, useContext } from "react"
 import { BreadcrumbItemProps } from "./interface"
 import { applyItemStyle, itemFinalStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { Dropdown } from "@illa-design/dropdown"
-import { DownIcon } from "@illa-design/icon"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { Dropdown } from "@zweb-design/dropdown"
+import { DownIcon } from "@zweb-design/icon"
 import { BreadcrumbContext } from "./breadcrumb-context"
 
 export const BreadcrumbItem = forwardRef<HTMLDivElement, BreadcrumbItemProps>(

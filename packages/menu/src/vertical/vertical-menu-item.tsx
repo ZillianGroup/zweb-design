@@ -1,7 +1,7 @@
 import { forwardRef, useContext } from "react"
 import { MenuItemProps, VerticalMenuItemProps } from "../interface"
 import { MenuContext } from "../menu-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import {
   applyVerticalMenuItemContainer,
   verticalSubMenuIcon,

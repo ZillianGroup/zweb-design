@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { StepsDirection, StepsStatus } from "./interface"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export function applyStepsContainerStyle(
   direction: StepsDirection,

@@ -8,7 +8,7 @@ import {
 } from "react"
 import { StatisticProps } from "./interface"
 import { animate, AnimationPlaybackControls } from "framer-motion"
-import { Skeleton } from "@illa-design/skeleton"
+import { Skeleton } from "@zweb-design/skeleton"
 import dayjs, { Dayjs } from "dayjs"
 import {
   statisticStyle,
@@ -18,8 +18,8 @@ import {
   statisticValueStyle,
   statisticExtraStyle,
 } from "./style"
-import { isObject } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { isObject } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 type StatisticHandle = {
   onCountUp: () => void

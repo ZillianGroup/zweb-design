@@ -1,5 +1,5 @@
 import Color from "color"
-import { globalColor, hasGlobalColor, illaPrefix } from "./global-color"
+import { globalColor, hasGlobalColor, zwebPrefix } from "./global-color"
 import chroma from "chroma-js"
 
 const formats = ["hex", "rgb", "hsl"]
@@ -111,7 +111,7 @@ export const getColor = (color: string, step: string) => {
   if (color === "transparent") {
     return "#00000000"
   }
-  if (!hasGlobalColor(`--${illaPrefix}-${color}-${step}`)) {
+  if (!hasGlobalColor(`--${zwebPrefix}-${color}-${step}`)) {
     const formatStep = transRule[step]
     let formatNum = formatStep ? formatStep : 6
     try {
@@ -120,7 +120,7 @@ export const getColor = (color: string, step: string) => {
       colorStyle = "#00000000"
     }
   } else {
-    colorStyle = globalColor(`--${illaPrefix}-${color}-${step}`)
+    colorStyle = globalColor(`--${zwebPrefix}-${color}-${step}`)
   }
   return colorStyle
 }

@@ -1,9 +1,9 @@
 import { forwardRef } from "react"
 import { IconProps } from "./interface"
 import { css } from "@emotion/react"
-import { omit } from "@illa-design/system"
+import { omit } from "@zweb-design/system"
 import { rotateAnimation } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Icon = forwardRef<SVGSVGElement, IconProps>((props, ref) => {
   const {

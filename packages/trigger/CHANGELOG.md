@@ -1,4 +1,4 @@
-# @illa-design/triggle
+# @zweb-design/triggle
 
 ## 1.0.31
 
@@ -7,10 +7,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.30
-  - @illa-design/icon@1.0.30
-  - @illa-design/system@1.0.28
-  - @illa-design/theme@1.0.30
+  - @zweb-design/config-provider@1.0.30
+  - @zweb-design/icon@1.0.30
+  - @zweb-design/system@1.0.28
+  - @zweb-design/theme@1.0.30
 
 ## 1.0.30
 
@@ -25,10 +25,10 @@
 - fix version
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.29
-  - @illa-design/icon@1.0.29
-  - @illa-design/system@1.0.27
-  - @illa-design/theme@1.0.29
+  - @zweb-design/config-provider@1.0.29
+  - @zweb-design/icon@1.0.29
+  - @zweb-design/system@1.0.27
+  - @zweb-design/theme@1.0.29
 
 ## 1.0.28
 
@@ -37,10 +37,10 @@
 - update version
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.28
-  - @illa-design/icon@1.0.28
-  - @illa-design/system@1.0.26
-  - @illa-design/theme@1.0.28
+  - @zweb-design/config-provider@1.0.28
+  - @zweb-design/icon@1.0.28
+  - @zweb-design/system@1.0.26
+  - @zweb-design/theme@1.0.28
 
 ## 1.0.27
 
@@ -49,10 +49,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.27
-  - @illa-design/icon@1.0.27
-  - @illa-design/system@1.0.25
-  - @illa-design/theme@1.0.27
+  - @zweb-design/config-provider@1.0.27
+  - @zweb-design/icon@1.0.27
+  - @zweb-design/system@1.0.25
+  - @zweb-design/theme@1.0.27
 
 ## 1.0.26
 
@@ -61,10 +61,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.26
-  - @illa-design/icon@1.0.26
-  - @illa-design/system@1.0.24
-  - @illa-design/theme@1.0.26
+  - @zweb-design/config-provider@1.0.26
+  - @zweb-design/icon@1.0.26
+  - @zweb-design/system@1.0.24
+  - @zweb-design/theme@1.0.26
 
 ## 1.0.25
 
@@ -73,10 +73,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.25
-  - @illa-design/icon@1.0.25
-  - @illa-design/system@1.0.23
-  - @illa-design/theme@1.0.25
+  - @zweb-design/config-provider@1.0.25
+  - @zweb-design/icon@1.0.25
+  - @zweb-design/system@1.0.23
+  - @zweb-design/theme@1.0.25
 
 ## 1.0.24
 
@@ -85,10 +85,10 @@
 - fix icons bug
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.24
-  - @illa-design/icon@1.0.24
-  - @illa-design/system@1.0.22
-  - @illa-design/theme@1.0.24
+  - @zweb-design/config-provider@1.0.24
+  - @zweb-design/icon@1.0.24
+  - @zweb-design/system@1.0.22
+  - @zweb-design/theme@1.0.24
 
 ## 1.0.23
 
@@ -97,10 +97,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.23
-  - @illa-design/icon@1.0.23
-  - @illa-design/system@1.0.21
-  - @illa-design/theme@1.0.23
+  - @zweb-design/config-provider@1.0.23
+  - @zweb-design/icon@1.0.23
+  - @zweb-design/system@1.0.21
+  - @zweb-design/theme@1.0.23
 
 ## 1.0.22
 
@@ -109,18 +109,18 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.22
-  - @illa-design/icon@1.0.22
-  - @illa-design/theme@1.0.22
+  - @zweb-design/config-provider@1.0.22
+  - @zweb-design/icon@1.0.22
+  - @zweb-design/theme@1.0.22
 
 ## 1.0.21
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.21
-  - @illa-design/icon@1.0.21
-  - @illa-design/theme@1.0.21
+  - @zweb-design/config-provider@1.0.21
+  - @zweb-design/icon@1.0.21
+  - @zweb-design/theme@1.0.21
 
 ## 1.0.20
 
@@ -129,10 +129,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.20
-  - @illa-design/icon@1.0.20
-  - @illa-design/system@1.0.20
-  - @illa-design/theme@1.0.20
+  - @zweb-design/config-provider@1.0.20
+  - @zweb-design/icon@1.0.20
+  - @zweb-design/system@1.0.20
+  - @zweb-design/theme@1.0.20
 
 ## 1.0.19
 
@@ -141,10 +141,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.19
-  - @illa-design/icon@1.0.19
-  - @illa-design/system@1.0.19
-  - @illa-design/theme@1.0.19
+  - @zweb-design/config-provider@1.0.19
+  - @zweb-design/icon@1.0.19
+  - @zweb-design/system@1.0.19
+  - @zweb-design/theme@1.0.19
 
 ## 1.0.18
 
@@ -153,10 +153,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.18
-  - @illa-design/icon@1.0.18
-  - @illa-design/system@1.0.18
-  - @illa-design/theme@1.0.18
+  - @zweb-design/config-provider@1.0.18
+  - @zweb-design/icon@1.0.18
+  - @zweb-design/system@1.0.18
+  - @zweb-design/theme@1.0.18
 
 ## 1.0.17
 
@@ -165,10 +165,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.17
-  - @illa-design/icon@1.0.17
-  - @illa-design/system@1.0.17
-  - @illa-design/theme@1.0.17
+  - @zweb-design/config-provider@1.0.17
+  - @zweb-design/icon@1.0.17
+  - @zweb-design/system@1.0.17
+  - @zweb-design/theme@1.0.17
 
 ## 1.0.16
 
@@ -177,10 +177,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.16
-  - @illa-design/icon@1.0.16
-  - @illa-design/system@1.0.16
-  - @illa-design/theme@1.0.16
+  - @zweb-design/config-provider@1.0.16
+  - @zweb-design/icon@1.0.16
+  - @zweb-design/system@1.0.16
+  - @zweb-design/theme@1.0.16
 
 ## 1.0.15
 
@@ -189,10 +189,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.15
-  - @illa-design/icon@1.0.15
-  - @illa-design/system@1.0.15
-  - @illa-design/theme@1.0.15
+  - @zweb-design/config-provider@1.0.15
+  - @zweb-design/icon@1.0.15
+  - @zweb-design/system@1.0.15
+  - @zweb-design/theme@1.0.15
 
 ## 1.0.14
 
@@ -201,10 +201,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.14
-  - @illa-design/icon@1.0.14
-  - @illa-design/system@1.0.14
-  - @illa-design/theme@1.0.14
+  - @zweb-design/config-provider@1.0.14
+  - @zweb-design/icon@1.0.14
+  - @zweb-design/system@1.0.14
+  - @zweb-design/theme@1.0.14
 
 ## 1.0.13
 
@@ -213,10 +213,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.13
-  - @illa-design/icon@1.0.13
-  - @illa-design/system@1.0.13
-  - @illa-design/theme@1.0.13
+  - @zweb-design/config-provider@1.0.13
+  - @zweb-design/icon@1.0.13
+  - @zweb-design/system@1.0.13
+  - @zweb-design/theme@1.0.13
 
 ## 1.0.12
 
@@ -225,10 +225,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.12
-  - @illa-design/icon@1.0.12
-  - @illa-design/system@1.0.12
-  - @illa-design/theme@1.0.12
+  - @zweb-design/config-provider@1.0.12
+  - @zweb-design/icon@1.0.12
+  - @zweb-design/system@1.0.12
+  - @zweb-design/theme@1.0.12
 
 ## 1.0.11
 
@@ -237,10 +237,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.11
-  - @illa-design/icon@1.0.11
-  - @illa-design/system@1.0.11
-  - @illa-design/theme@1.0.11
+  - @zweb-design/config-provider@1.0.11
+  - @zweb-design/icon@1.0.11
+  - @zweb-design/system@1.0.11
+  - @zweb-design/theme@1.0.11
 
 ## 1.0.10
 
@@ -249,10 +249,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.10
-  - @illa-design/icon@1.0.10
-  - @illa-design/system@1.0.10
-  - @illa-design/theme@1.0.10
+  - @zweb-design/config-provider@1.0.10
+  - @zweb-design/icon@1.0.10
+  - @zweb-design/system@1.0.10
+  - @zweb-design/theme@1.0.10
 
 ## 1.0.9
 
@@ -263,10 +263,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.9
-  - @illa-design/icon@1.0.9
-  - @illa-design/system@1.0.9
-  - @illa-design/theme@1.0.9
+  - @zweb-design/config-provider@1.0.9
+  - @zweb-design/icon@1.0.9
+  - @zweb-design/system@1.0.9
+  - @zweb-design/theme@1.0.9
 
 ## 1.0.8
 
@@ -275,10 +275,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.8
-  - @illa-design/icon@1.0.8
-  - @illa-design/system@1.0.8
-  - @illa-design/theme@1.0.8
+  - @zweb-design/config-provider@1.0.8
+  - @zweb-design/icon@1.0.8
+  - @zweb-design/system@1.0.8
+  - @zweb-design/theme@1.0.8
 
 ## 1.0.7
 
@@ -287,10 +287,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.7
-  - @illa-design/icon@1.0.7
-  - @illa-design/system@1.0.7
-  - @illa-design/theme@1.0.7
+  - @zweb-design/config-provider@1.0.7
+  - @zweb-design/icon@1.0.7
+  - @zweb-design/system@1.0.7
+  - @zweb-design/theme@1.0.7
 
 ## 1.0.6
 
@@ -299,10 +299,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.6
-  - @illa-design/icon@1.0.6
-  - @illa-design/system@1.0.6
-  - @illa-design/theme@1.0.6
+  - @zweb-design/config-provider@1.0.6
+  - @zweb-design/icon@1.0.6
+  - @zweb-design/system@1.0.6
+  - @zweb-design/theme@1.0.6
 
 ## 1.0.5
 
@@ -311,10 +311,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.5
-  - @illa-design/icon@1.0.5
-  - @illa-design/system@1.0.5
-  - @illa-design/theme@1.0.5
+  - @zweb-design/config-provider@1.0.5
+  - @zweb-design/icon@1.0.5
+  - @zweb-design/system@1.0.5
+  - @zweb-design/theme@1.0.5
 
 ## 1.0.4
 
@@ -323,10 +323,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.4
-  - @illa-design/icon@1.0.4
-  - @illa-design/system@1.0.4
-  - @illa-design/theme@1.0.4
+  - @zweb-design/config-provider@1.0.4
+  - @zweb-design/icon@1.0.4
+  - @zweb-design/system@1.0.4
+  - @zweb-design/theme@1.0.4
 
 ## 1.0.3
 
@@ -335,10 +335,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.3
-  - @illa-design/icon@1.0.3
-  - @illa-design/system@1.0.3
-  - @illa-design/theme@1.0.3
+  - @zweb-design/config-provider@1.0.3
+  - @zweb-design/icon@1.0.3
+  - @zweb-design/system@1.0.3
+  - @zweb-design/theme@1.0.3
 
 ## 1.0.2
 
@@ -347,10 +347,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.2
-  - @illa-design/icon@1.0.2
-  - @illa-design/system@1.0.2
-  - @illa-design/theme@1.0.2
+  - @zweb-design/config-provider@1.0.2
+  - @zweb-design/icon@1.0.2
+  - @zweb-design/system@1.0.2
+  - @zweb-design/theme@1.0.2
 
 ## 1.0.1
 
@@ -359,10 +359,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.1
-  - @illa-design/icon@1.0.1
-  - @illa-design/system@1.0.1
-  - @illa-design/theme@1.0.1
+  - @zweb-design/config-provider@1.0.1
+  - @zweb-design/icon@1.0.1
+  - @zweb-design/system@1.0.1
+  - @zweb-design/theme@1.0.1
 
 ## 1.0.0
 
@@ -373,10 +373,10 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @illa-design/config-provider@1.0.0
-  - @illa-design/icon@1.0.0
-  - @illa-design/system@1.0.0
-  - @illa-design/theme@1.0.0
+  - @zweb-design/config-provider@1.0.0
+  - @zweb-design/icon@1.0.0
+  - @zweb-design/system@1.0.0
+  - @zweb-design/theme@1.0.0
 
 ## 0.0.17
 
@@ -385,10 +385,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.17
-  - @illa-design/icon@0.0.17
-  - @illa-design/system@0.0.17
-  - @illa-design/theme@0.0.17
+  - @zweb-design/config-provider@0.0.17
+  - @zweb-design/icon@0.0.17
+  - @zweb-design/system@0.0.17
+  - @zweb-design/theme@0.0.17
 
 ## 0.0.16
 
@@ -397,10 +397,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.16
-  - @illa-design/icon@0.0.16
-  - @illa-design/system@0.0.16
-  - @illa-design/theme@0.0.16
+  - @zweb-design/config-provider@0.0.16
+  - @zweb-design/icon@0.0.16
+  - @zweb-design/system@0.0.16
+  - @zweb-design/theme@0.0.16
 
 ## 0.0.15
 
@@ -409,10 +409,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.15
-  - @illa-design/icon@0.0.15
-  - @illa-design/system@0.0.15
-  - @illa-design/theme@0.0.15
+  - @zweb-design/config-provider@0.0.15
+  - @zweb-design/icon@0.0.15
+  - @zweb-design/system@0.0.15
+  - @zweb-design/theme@0.0.15
 
 ## 0.0.14
 
@@ -421,10 +421,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.14
-  - @illa-design/icon@0.0.14
-  - @illa-design/system@0.0.14
-  - @illa-design/theme@0.0.14
+  - @zweb-design/config-provider@0.0.14
+  - @zweb-design/icon@0.0.14
+  - @zweb-design/system@0.0.14
+  - @zweb-design/theme@0.0.14
 
 ## 0.0.13
 
@@ -433,10 +433,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.13
-  - @illa-design/icon@0.0.13
-  - @illa-design/system@0.0.13
-  - @illa-design/theme@0.0.13
+  - @zweb-design/config-provider@0.0.13
+  - @zweb-design/icon@0.0.13
+  - @zweb-design/system@0.0.13
+  - @zweb-design/theme@0.0.13
 
 ## 0.0.12
 
@@ -445,10 +445,10 @@
 - bugfix
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.12
-  - @illa-design/icon@0.0.12
-  - @illa-design/system@0.0.12
-  - @illa-design/theme@0.0.12
+  - @zweb-design/config-provider@0.0.12
+  - @zweb-design/icon@0.0.12
+  - @zweb-design/system@0.0.12
+  - @zweb-design/theme@0.0.12
 
 ## 0.0.11
 
@@ -457,10 +457,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.11
-  - @illa-design/icon@0.0.11
-  - @illa-design/system@0.0.11
-  - @illa-design/theme@0.0.11
+  - @zweb-design/config-provider@0.0.11
+  - @zweb-design/icon@0.0.11
+  - @zweb-design/system@0.0.11
+  - @zweb-design/theme@0.0.11
 
 ## 0.0.10
 
@@ -469,10 +469,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.10
-  - @illa-design/icon@0.0.10
-  - @illa-design/system@0.0.10
-  - @illa-design/theme@0.0.10
+  - @zweb-design/config-provider@0.0.10
+  - @zweb-design/icon@0.0.10
+  - @zweb-design/system@0.0.10
+  - @zweb-design/theme@0.0.10
 
 ## 0.0.9
 
@@ -481,10 +481,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.9
-  - @illa-design/icon@0.0.9
-  - @illa-design/system@0.0.9
-  - @illa-design/theme@0.0.9
+  - @zweb-design/config-provider@0.0.9
+  - @zweb-design/icon@0.0.9
+  - @zweb-design/system@0.0.9
+  - @zweb-design/theme@0.0.9
 
 ## 0.0.8
 
@@ -493,10 +493,10 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.8
-  - @illa-design/icon@0.0.8
-  - @illa-design/system@0.0.8
-  - @illa-design/theme@0.0.8
+  - @zweb-design/config-provider@0.0.8
+  - @zweb-design/icon@0.0.8
+  - @zweb-design/system@0.0.8
+  - @zweb-design/theme@0.0.8
 
 ## 0.0.7
 
@@ -505,10 +505,10 @@
 - bugfix
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.7
-  - @illa-design/icon@0.0.7
-  - @illa-design/system@0.0.7
-  - @illa-design/theme@0.0.7
+  - @zweb-design/config-provider@0.0.7
+  - @zweb-design/icon@0.0.7
+  - @zweb-design/system@0.0.7
+  - @zweb-design/theme@0.0.7
 
 ## 0.0.6
 
@@ -517,20 +517,20 @@
 - fix bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.6
-  - @illa-design/icon@0.0.6
-  - @illa-design/system@0.0.6
-  - @illa-design/theme@0.0.6
+  - @zweb-design/config-provider@0.0.6
+  - @zweb-design/icon@0.0.6
+  - @zweb-design/system@0.0.6
+  - @zweb-design/theme@0.0.6
 
 ## 0.0.5
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @illa-design/system@0.0.5
-  - @illa-design/config-provider@0.0.5
-  - @illa-design/icon@0.0.5
-  - @illa-design/theme@0.0.5
+  - @zweb-design/system@0.0.5
+  - @zweb-design/config-provider@0.0.5
+  - @zweb-design/icon@0.0.5
+  - @zweb-design/theme@0.0.5
 
 ## 0.0.4
 
@@ -539,10 +539,10 @@
 - update version
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.4
-  - @illa-design/icon@0.0.4
-  - @illa-design/system@0.0.4
-  - @illa-design/theme@0.0.4
+  - @zweb-design/config-provider@0.0.4
+  - @zweb-design/icon@0.0.4
+  - @zweb-design/system@0.0.4
+  - @zweb-design/theme@0.0.4
 
 ## 0.0.3
 
@@ -551,10 +551,10 @@
 - fix some bugs
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.3
-  - @illa-design/icon@0.0.3
-  - @illa-design/system@0.0.3
-  - @illa-design/theme@0.0.3
+  - @zweb-design/config-provider@0.0.3
+  - @zweb-design/icon@0.0.3
+  - @zweb-design/system@0.0.3
+  - @zweb-design/theme@0.0.3
 
 ## 0.0.2
 
@@ -563,10 +563,10 @@
 - update all components version
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.2
-  - @illa-design/icon@0.0.2
-  - @illa-design/system@0.0.2
-  - @illa-design/theme@0.0.2
+  - @zweb-design/config-provider@0.0.2
+  - @zweb-design/icon@0.0.2
+  - @zweb-design/system@0.0.2
+  - @zweb-design/theme@0.0.2
 
 ## 0.0.1
 
@@ -575,10 +575,10 @@
 - release the first version
 
 - Updated dependencies []:
-  - @illa-design/config-provider@0.0.1
-  - @illa-design/icon@0.0.1
-  - @illa-design/system@0.0.1
-  - @illa-design/theme@0.0.1
+  - @zweb-design/config-provider@0.0.1
+  - @zweb-design/icon@0.0.1
+  - @zweb-design/system@0.0.1
+  - @zweb-design/theme@0.0.1
 
 ## 0.0.0
 

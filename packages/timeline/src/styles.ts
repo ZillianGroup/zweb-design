@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import {
   TimelineDirection,
   TimelineItemLineType,
@@ -71,7 +71,7 @@ export function applyItemStyle(
 }
 
 export function baseLineStyle(lineColor?: string): SerializedStyles {
-  let color = lineColor ? lineColor : globalColor(`--${illaPrefix}-grayBlue-08`)
+  let color = lineColor ? lineColor : globalColor(`--${zwebPrefix}-grayBlue-08`)
   return css`
     border-color: ${color};
   `
@@ -83,7 +83,7 @@ export function dotCommonStyle(
 ): SerializedStyles {
   let dotFillColor = dotColor
     ? dotColor
-    : globalColor(`--${illaPrefix}-blue-03`)
+    : globalColor(`--${zwebPrefix}-blue-03`)
   let dotFillStyle
   if (dotType === "hollow") {
     dotFillStyle = css`
@@ -154,7 +154,7 @@ export function applyLineStyle(
 ): SerializedStyles {
   let dotFillColor = dotColor
     ? dotColor
-    : globalColor(`--${illaPrefix}-grayBlue-08`)
+    : globalColor(`--${zwebPrefix}-grayBlue-08`)
   if (direction === "horizontal") {
     return css`
       box-sizing: border-box;

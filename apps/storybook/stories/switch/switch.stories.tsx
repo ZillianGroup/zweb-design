@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Space, CloseIcon, SwitchProps, Switch } from "@illa-design/react"
+import { Space, CloseIcon, SwitchProps, Switch } from "@zweb-design/react"
 import { BiCheckbox, BiCheckboxChecked } from "react-icons/bi"
 
 export default {

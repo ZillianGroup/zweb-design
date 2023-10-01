@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/time-picker",
+  "name": "@zweb-design/time-picker",
   "version": "1.0.31",
-  "description": "Illa Design TimePicker.",
+  "description": "ZWeb Design TimePicker.",
   "keywords": [
     "time-picker",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "ILLA Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,11 +30,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/time-picker"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build"
@@ -43,12 +43,12 @@
     "@types/lodash.debounce": "^4.0.7"
   },
   "dependencies": {
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
-    "@illa-design/trigger": "workspace:*",
-    "@illa-design/config-provider": "workspace:*",
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/button": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
+    "@zweb-design/trigger": "workspace:*",
+    "@zweb-design/config-provider": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/button": "workspace:*",
     "lodash.debounce": "^4.0.8",
     "dayjs": "^1.11.7"
   },

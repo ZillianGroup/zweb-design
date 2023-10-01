@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@illa-design/react": "workspace:*",
+    "@zweb-design/react": "workspace:*",
     "react-icons": "^4.8.0"
   },
   "devDependencies": {

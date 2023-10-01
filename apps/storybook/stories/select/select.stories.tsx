@@ -6,7 +6,7 @@ import {
   Select,
   SelectProps,
   Space,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 import { useState } from "react"
 
 //👇 This default export determines where your story goes in the story list

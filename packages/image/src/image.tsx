@@ -1,13 +1,13 @@
 import { forwardRef, useEffect, useState } from "react"
 import { ImageProps } from "./interface"
-import { ImageDefaultIcon } from "@illa-design/icon"
+import { ImageDefaultIcon } from "@zweb-design/icon"
 import { applyDefaultFallback, applyImageCss, applyOuterCss } from "./style"
 import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 
 enum ImageState {
   Loading,
@@ -25,7 +25,7 @@ export const Image = forwardRef<HTMLDivElement, ImageProps>((props, ref) => {
     // custom
     objectFit = "cover",
     fallback = (
-      <ImageDefaultIcon color={globalColor(`--${illaPrefix}-blackAlpha-06`)} />
+      <ImageDefaultIcon color={globalColor(`--${zwebPrefix}-blackAlpha-06`)} />
     ),
     fallbackSrc = "",
     radius = "4px",

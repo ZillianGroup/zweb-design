@@ -2,7 +2,7 @@ import { Meta, StoryFn } from "@storybook/react"
 import {
   TimePicker as TimePickerInStory,
   TimePickerProps,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 export default {
   title: "DATA INPUT/TimePicker",

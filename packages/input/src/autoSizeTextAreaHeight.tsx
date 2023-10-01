@@ -1,4 +1,4 @@
-import { isNumber, isObject } from "@illa-design/system"
+import { isNumber, isObject } from "@zweb-design/system"
 
 const mirrorTextAreaStyle = `
   position: absolute;

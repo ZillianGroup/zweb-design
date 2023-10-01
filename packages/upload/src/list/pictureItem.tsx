@@ -1,12 +1,12 @@
 import { STATUS, CustomIconType, UploadListItemProps } from "../interface"
-import { isFunction, isObject } from "@illa-design/system"
+import { isFunction, isObject } from "@zweb-design/system"
 import UploadProgress from "./uploadProgress"
 import {
   EyeOnIcon,
   UploadIcon,
   DeleteIcon,
   ImageDefaultIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import {
   errorImageContainerStyle,
   errorImageNameStyle,
@@ -25,7 +25,7 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 
 const PictureItem = (props: UploadListItemProps) => {
   const { disabled, file, showUploadList, onRemove, onPreview, onReupload } =

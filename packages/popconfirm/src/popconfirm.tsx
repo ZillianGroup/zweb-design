@@ -1,21 +1,21 @@
 import { FC, useContext, useState } from "react"
 import { PopconfirmProps } from "./interface"
-import { Trigger } from "@illa-design/trigger"
-import { Typography } from "@illa-design/typography"
+import { Trigger } from "@zweb-design/trigger"
+import { Typography } from "@zweb-design/typography"
 import {
   applyButtonGroupStyle,
   applyHeaderStyle,
   applyTypographyContainer,
 } from "./style"
-import { Space } from "@illa-design/space"
-import { Button } from "@illa-design/button"
+import { Space } from "@zweb-design/space"
+import { Button } from "@zweb-design/button"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
-import { InfoCircleIcon } from "@illa-design/icon"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+} from "@zweb-design/config-provider"
+import { InfoCircleIcon } from "@zweb-design/icon"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const PopConfirm: FC<PopconfirmProps> = (props) => {
   const {
@@ -29,7 +29,7 @@ export const PopConfirm: FC<PopconfirmProps> = (props) => {
     onOk,
     onCancel,
     defaultPopupVisible,
-    icon = <InfoCircleIcon color={globalColor(`--${illaPrefix}-blue-03`)} />,
+    icon = <InfoCircleIcon color={globalColor(`--${zwebPrefix}-blue-03`)} />,
     colorScheme = "white",
     trigger = "click",
     // must be false

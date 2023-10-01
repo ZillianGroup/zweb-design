@@ -1,4 +1,4 @@
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 import { css, SerializedStyles } from "@emotion/react"
 import { SliderColorScheme } from "./interface"
 

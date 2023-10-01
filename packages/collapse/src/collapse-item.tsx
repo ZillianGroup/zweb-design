@@ -11,8 +11,8 @@ import {
   dividerStyle,
   expandIconStyle,
 } from "./style"
-import { CaretLeftIcon, CaretRightIcon } from "@illa-design/icon"
-import { deleteCssProps, getColor } from "@illa-design/theme"
+import { CaretLeftIcon, CaretRightIcon } from "@zweb-design/icon"
+import { deleteCssProps, getColor } from "@zweb-design/theme"
 import { forwardRef, MouseEvent, useCallback, useContext, useMemo } from "react"
 import { Transition } from "react-transition-group"
 

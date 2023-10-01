@@ -1,7 +1,7 @@
 import { forwardRef, ReactNode } from "react"
 import { ProgressProps } from "./interface"
 import { applyCircleStatus, applyProgressText } from "./circle-progress-style"
-import { SuccessIcon, WarningIcon } from "@illa-design/icon"
+import { SuccessIcon, WarningIcon } from "@zweb-design/icon"
 import {
   applyContainer,
   applyProgressContainer,
@@ -12,8 +12,8 @@ import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 
 export const CircleProgress = forwardRef<HTMLDivElement, ProgressProps>(
   (props, ref) => {
@@ -54,12 +54,12 @@ export const CircleProgress = forwardRef<HTMLDivElement, ProgressProps>(
     switch (status) {
       case "success":
         statusComponent = (
-          <SuccessIcon color={globalColor(`--${illaPrefix}-green-03`)} />
+          <SuccessIcon color={globalColor(`--${zwebPrefix}-green-03`)} />
         )
         break
       case "error":
         statusComponent = (
-          <WarningIcon color={globalColor(`--${illaPrefix}-red-03`)} />
+          <WarningIcon color={globalColor(`--${zwebPrefix}-red-03`)} />
         )
         break
     }

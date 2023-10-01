@@ -19,17 +19,17 @@ import {
   NextIcon,
   PreviousDoubleIcon,
   PreviousIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import { YearPickerPanel } from "../year"
 import { MonthPickerPanel } from "../month"
-import { dayjsPro, getDayjsValue, isObject } from "@illa-design/system"
+import { dayjsPro, getDayjsValue, isObject } from "@zweb-design/system"
 import { GetHeaderOperationsFun, DatePickerModeType } from "../../interface"
-import { TimePickerPopup } from "@illa-design/time-picker"
+import { TimePickerPopup } from "@zweb-design/time-picker"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 
 export const ONE_PAGE_WITH_DAYS = 6 * 7
 

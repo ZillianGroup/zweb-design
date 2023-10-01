@@ -6,8 +6,8 @@ import {
   KeyboardEvent,
   useCallback,
 } from "react"
-import { ClearIcon } from "@illa-design/icon"
-import { omit } from "@illa-design/system"
+import { ClearIcon } from "@zweb-design/icon"
+import { omit } from "@zweb-design/system"
 import { DateInputHandler, DateInputProps } from "./interface"
 import {
   applyInputWrapperStyle,

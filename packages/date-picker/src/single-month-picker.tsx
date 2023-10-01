@@ -13,7 +13,7 @@ import {
   SingleMonthPickerProps,
 } from "./interface"
 import { PickerContext } from "./context"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import { DateInput } from "./input/singleInput"
 import { getFormat } from "./utils/uiHelpers"
 import { Dayjs, UnitType } from "dayjs"
@@ -26,11 +26,11 @@ import {
   toLocal,
   toTimezone,
   usePrevious,
-} from "@illa-design/system"
-import { CalendarIcon } from "@illa-design/icon"
+} from "@zweb-design/system"
+import { CalendarIcon } from "@zweb-design/icon"
 import { BasicFooterSection } from "./panels/basic-footer-section"
 import { MonthPickerPanel } from "./panels/month"
-import { applyBoxStyle } from "@illa-design/theme"
+import { applyBoxStyle } from "@zweb-design/theme"
 
 export const SingleMonthPicker = forwardRef<
   HTMLDivElement,

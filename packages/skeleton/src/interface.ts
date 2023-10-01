@@ -1,5 +1,5 @@
 import { HTMLAttributes, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type ImageSize = number | "small" | "medium" | "large"
 export type ImageShape = "circle" | "square"

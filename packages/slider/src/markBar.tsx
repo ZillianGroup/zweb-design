@@ -5,7 +5,7 @@ import { motion, PanInfo, useMotionValue } from "framer-motion"
 import { BarLocation } from "./content"
 import { getMarkBound } from "./utils"
 import useMeasure from "react-use-measure"
-import { mergeRefs } from "@illa-design/system"
+import { mergeRefs } from "@zweb-design/system"
 
 export const MarkBar = forwardRef<HTMLDivElement, SliderMarkBar>(
   (props, ref) => {

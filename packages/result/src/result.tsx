@@ -8,7 +8,7 @@ import {
   Result500Icon,
   SuccessIcon,
   WarningIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import {
   applyIconContainer,
   applyWrapStyle,
@@ -16,7 +16,7 @@ import {
   subTitleCss,
   titleCss,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Result = forwardRef<HTMLDivElement, ResultProps>((props, ref) => {
   const {

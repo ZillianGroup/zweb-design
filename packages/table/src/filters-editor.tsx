@@ -1,9 +1,9 @@
 import { FC, useMemo } from "react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
-import { Button } from "@illa-design/button"
-import { AddIcon, DeleteIcon } from "@illa-design/icon"
-import { Select } from "@illa-design/select"
-import { Input } from "@illa-design/input"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
+import { Button } from "@zweb-design/button"
+import { AddIcon, DeleteIcon } from "@zweb-design/icon"
+import { Select } from "@zweb-design/select"
+import { Input } from "@zweb-design/input"
 import { FilterFn, FilterOperator, FiltersEditorProps } from "./interface"
 import {
   editorButtonStyle,
@@ -12,7 +12,7 @@ import {
   filterStyle,
 } from "./style"
 import { FilterOperatorOptions, FilterOptions } from "./utils"
-import { isString } from "@illa-design/system"
+import { isString } from "@zweb-design/system"
 
 export const FiltersEditor: FC<FiltersEditorProps> = (props) => {
   const {
@@ -97,7 +97,7 @@ export const FiltersEditor: FC<FiltersEditorProps> = (props) => {
                 }}
                 leftIcon={
                   <DeleteIcon
-                    color={globalColor(`--${illaPrefix}-grayBlue-06`)}
+                    color={globalColor(`--${zwebPrefix}-grayBlue-06`)}
                   />
                 }
               />
@@ -127,7 +127,7 @@ export const FiltersEditor: FC<FiltersEditorProps> = (props) => {
           variant="text"
           onClick={onAdd}
           leftIcon={
-            <AddIcon color={globalColor(`--${illaPrefix}-techPurple-08`)} />
+            <AddIcon color={globalColor(`--${zwebPrefix}-techPurple-08`)} />
           }
         >
           New

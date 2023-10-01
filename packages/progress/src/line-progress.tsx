@@ -11,14 +11,14 @@ import {
   applySpace,
   applyStatusIcon,
 } from "./line-progress-style"
-import { SuccessIcon, WarningCircleIcon } from "@illa-design/icon"
-import { Space } from "@illa-design/space"
+import { SuccessIcon, WarningCircleIcon } from "@zweb-design/icon"
+import { Space } from "@zweb-design/space"
 import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 
 export const LineProgress = forwardRef<HTMLDivElement, ProgressProps>(
   (props, ref) => {
@@ -56,12 +56,12 @@ export const LineProgress = forwardRef<HTMLDivElement, ProgressProps>(
     switch (status) {
       case "success":
         statusComponent = (
-          <SuccessIcon color={globalColor(`--${illaPrefix}-green-03`)} />
+          <SuccessIcon color={globalColor(`--${zwebPrefix}-green-03`)} />
         )
         break
       case "error":
         statusComponent = (
-          <WarningCircleIcon color={globalColor(`--${illaPrefix}-red-03`)} />
+          <WarningCircleIcon color={globalColor(`--${zwebPrefix}-red-03`)} />
         )
         break
     }

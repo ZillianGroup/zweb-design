@@ -1,5 +1,5 @@
 import { css } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const overflowEllipsisCommonStyle = css`
   white-space: nowrap;
@@ -48,7 +48,7 @@ export const getTextItemContainerStyle = (listType: string = "text") => {
     border-radius: 2px;
     align-items: center;
     justify-content: space-between;
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
   `
   if (listType === "text") {
     return css`
@@ -134,7 +134,7 @@ export const getTextItemNameStyle = (status: string = "init") => {
   let errorStyle = css``
   if (status === "error") {
     errorStyle = css`
-      color: ${globalColor(`--${illaPrefix}-red-03`)};
+      color: ${globalColor(`--${zwebPrefix}-red-03`)};
     `
   }
   return css`
@@ -142,7 +142,7 @@ export const getTextItemNameStyle = (status: string = "init") => {
     font-size: 14px;
     ${overflowEllipsisCommonStyle};
     line-height: 22px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
     ${errorStyle};
   `
 }
@@ -155,13 +155,13 @@ export const textItemProgressStyle = css`
 export const textItemDeleteIconStyle = css`
   display: flex;
   align-self: center;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
   cursor: pointer;
   width: 16px;
   height: 16px;
   transition: color 200ms ease-in-out;
   &:hover {
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   }
   & > svg {
     margin: auto;
@@ -197,7 +197,7 @@ export const inputUploadStyle = css`
   width: 100px;
   height: 100px;
   border: 2px;
-  background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+  background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
 `
 
 export const inputContentContainer = css`
@@ -227,25 +227,25 @@ export const getPictureCardContainerStyle = (disabled: boolean) => {
   if (disabled) {
     return css`
       ${basicStyle};
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
-      color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
+      color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
     `
   }
   return css`
     ${basicStyle};
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
-    color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
     transition: background-color 200ms ease-in-out;
     & svg {
-      color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+      color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
     }
     &:hover {
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     }
     &:active {
-      background-color: ${globalColor(`--${illaPrefix}-blue-07`)};
+      background-color: ${globalColor(`--${zwebPrefix}-blue-07`)};
       & svg {
-        color: ${globalColor(`--${illaPrefix}-blue-01`)};
+        color: ${globalColor(`--${zwebPrefix}-blue-01`)};
       }
     }
   `
@@ -278,7 +278,7 @@ export const getDragContainerStyle = (disabled: boolean) => {
     width: 100%;
     padding: 24px 16px 48px 16px;
     box-sizing: border-box;
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -289,21 +289,21 @@ export const getDragContainerStyle = (disabled: boolean) => {
     return css`
       ${basicStyle};
       cursor: not-allowed;
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
-      color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
+      color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
     `
   }
   return css`
     ${basicStyle};
-    color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
     transition: background-color 200ms ease-in-out;
     &:hover {
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     }
     &:active {
-      background-color: ${globalColor(`--${illaPrefix}-blue-07`)};
+      background-color: ${globalColor(`--${zwebPrefix}-blue-07`)};
       & svg {
-        color: ${globalColor(`--${illaPrefix}-blue-01`)};
+        color: ${globalColor(`--${zwebPrefix}-blue-01`)};
       }
     }
   `
@@ -341,11 +341,11 @@ export const dragTipsStyle = css`
   word-wrap: break-word;
   text-align: center;
   font-size: 14px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `
 
 export const successIconStyle = css`
-  color: ${globalColor(`--${illaPrefix}-green-03`)};
+  color: ${globalColor(`--${zwebPrefix}-green-03`)};
   display: flex;
   width: 16px;
   height: 16px;
@@ -377,7 +377,7 @@ export const uploadProgressStyle = css`
   width: 16px;
   height: 16px;
   font-size: 16px;
-  color: ${globalColor(`--${illaPrefix}-white-03`)};
+  color: ${globalColor(`--${zwebPrefix}-white-03`)};
 `
 
 export const uploadProgressFailStyle = css`
@@ -385,7 +385,7 @@ export const uploadProgressFailStyle = css`
   flex: 1;
   ${overflowEllipsisCommonStyle};
   cursor: pointer;
-  color: ${globalColor(`--${illaPrefix}-blue-01`)};
+  color: ${globalColor(`--${zwebPrefix}-blue-01`)};
 `
 
 export const pictureItemUploading = css`
@@ -405,7 +405,7 @@ export const pictureItemStyle = css`
   text-align: center;
   border-radius: 2px;
   vertical-align: middle;
-  background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+  background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
   & > img {
     width: 100%;
     height: 100%;
@@ -424,7 +424,7 @@ export const pictureItemMask = css`
   line-height: 100px;
   opacity: 0;
   transition: opacity 200ms ease-in-out;
-  background: ${globalColor(`--${illaPrefix}-blackAlpha-04`)};
+  background: ${globalColor(`--${zwebPrefix}-blackAlpha-04`)};
   &:hover {
     opacity: 1;
     display: block;
@@ -442,11 +442,11 @@ export const pictureItemUploadingMask = css`
   font-size: 16px;
   line-height: 100px;
   transition: opacity 200ms ease-in-out;
-  background: ${globalColor(`--${illaPrefix}-blackAlpha-04`)};
+  background: ${globalColor(`--${zwebPrefix}-blackAlpha-04`)};
   opacity: 1;
   display: block;
   & svg {
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
   }
 `
 
@@ -455,11 +455,11 @@ export const pictureItemOperationsStyle = css`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: ${globalColor(`--${illaPrefix}-white-02`)};
+  color: ${globalColor(`--${zwebPrefix}-white-02`)};
 `
 
 export const pictureItemPreviewStyle = css`
-  color: ${globalColor(`--${illaPrefix}-white-02`)};
+  color: ${globalColor(`--${zwebPrefix}-white-02`)};
   text-decoration: none;
 `
 
@@ -467,8 +467,8 @@ export const errorImageContainerStyle = css`
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  color: ${globalColor(`--${illaPrefix}-red-03`)};
-  border: 1px solid ${globalColor(`--${illaPrefix}-red-03`)};
+  color: ${globalColor(`--${zwebPrefix}-red-03`)};
+  border: 1px solid ${globalColor(`--${zwebPrefix}-red-03`)};
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -493,7 +493,7 @@ export const errorListItemStyle = css`
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  color: ${globalColor(`--${illaPrefix}-red-03`)};
+  color: ${globalColor(`--${zwebPrefix}-red-03`)};
   border-radius: 4px;
   display: flex;
   align-items: center;

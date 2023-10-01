@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { PageHeader, PageHeaderProps } from "@illa-design/react"
+import { PageHeader, PageHeaderProps } from "@zweb-design/react"
 
 export default {
   title: "NAVIGATION/PageHeader",
@@ -11,7 +11,7 @@ const Template: StoryFn<PageHeaderProps> = (args) => {
   return (
     <PageHeader
       {...args}
-      title="IllaDesign"
+      title="ZWebDesign"
       subTitle="This is a description"
       backIcon
       breadcrumb={{

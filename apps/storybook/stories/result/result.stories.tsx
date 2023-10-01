@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Result, ResultProps } from "@illa-design/react"
+import { Result, ResultProps } from "@zweb-design/react"
 
 export default {
   title: "FEEDBACK/Result",

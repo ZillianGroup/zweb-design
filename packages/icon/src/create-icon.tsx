@@ -3,7 +3,7 @@ import { Children, forwardRef, ReactElement } from "react"
 import { Icon } from "./icon"
 import { IconProps } from "./interface"
 import { iconContainerStyle } from "./style"
-import { deleteCssProps } from "@illa-design/theme"
+import { deleteCssProps } from "@zweb-design/theme"
 
 interface CreateIconOptions {
   /**

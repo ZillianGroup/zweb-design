@@ -1,6 +1,6 @@
 import { HTMLAttributes, MouseEvent, ReactNode, SyntheticEvent } from "react"
-import { TriggerColorScheme, TriggerProps } from "@illa-design/trigger"
-import { BoxProps } from "@illa-design/theme"
+import { TriggerColorScheme, TriggerProps } from "@zweb-design/trigger"
+import { BoxProps } from "@zweb-design/theme"
 
 export interface DropdownProps {
   onBlur?: (e: SyntheticEvent) => void

@@ -1,9 +1,9 @@
 import { forwardRef, MouseEvent, useCallback } from "react"
 import { CollapseProps } from "./interface"
 import { CollapseContext } from "./collapse-context"
-import { useMergeValue } from "@illa-design/system"
+import { useMergeValue } from "@zweb-design/system"
 import { applyCollapseStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 const getActiveKeys = (
   keys: string | string[],

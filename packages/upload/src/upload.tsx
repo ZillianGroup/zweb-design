@@ -13,7 +13,7 @@ import {
   UploaderInstance,
 } from "./interface"
 import Uploader from "./uploader"
-import { isFunction, isNumber, isArray } from "@illa-design/system"
+import { isFunction, isNumber, isArray } from "@zweb-design/system"
 import UploadList from "./list"
 import { v4 } from "uuid"
 import { getUploaderContinerStyle } from "./style"

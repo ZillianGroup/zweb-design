@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/menu",
+      name: "@zweb-design/menu",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -35,10 +35,10 @@ export default defineConfig({
         "react-dom",
         "@emotion/react",
         "framer-motion",
-        "@illa-design/system",
-        "@illa-design/theme",
-        "@illa-design/icon",
-        "@illa-design/dropdown",
+        "@zweb-design/system",
+        "@zweb-design/theme",
+        "@zweb-design/icon",
+        "@zweb-design/dropdown",
         "react-use-measure",
       ],
       output: {
@@ -47,10 +47,10 @@ export default defineConfig({
           "react-dom": "ReactDom",
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
-          "@illa-design/system": "@illa-design/system",
-          "@illa-design/theme": "@illa-design/theme",
-          "@illa-design/icon": "@illa-design/icon",
-          "@illa-design/dropdown": "@illa-design/dropdown",
+          "@zweb-design/system": "@zweb-design/system",
+          "@zweb-design/theme": "@zweb-design/theme",
+          "@zweb-design/icon": "@zweb-design/icon",
+          "@zweb-design/dropdown": "@zweb-design/dropdown",
           "react-use-measure": "react-use-measure",
         },
       },

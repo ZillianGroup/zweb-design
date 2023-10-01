@@ -1,7 +1,7 @@
 import { FC, useContext, useState } from "react"
 import { PopoverProps } from "./interface"
-import { Trigger } from "@illa-design/trigger"
-import { Heading, Typography } from "@illa-design/typography"
+import { Trigger } from "@zweb-design/trigger"
+import { Heading, Typography } from "@zweb-design/typography"
 import {
   applyCloseButton,
   applyTitleColor,
@@ -11,8 +11,8 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
-import { Link } from "@illa-design/link"
+} from "@zweb-design/config-provider"
+import { Link } from "@zweb-design/link"
 
 export const Popover: FC<PopoverProps> = (props) => {
   const {

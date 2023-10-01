@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react"
-import { ProgressProps } from "@illa-design/progress"
-import { ButtonVariant } from "@illa-design/button"
+import { ProgressProps } from "@zweb-design/progress"
+import { ButtonVariant } from "@zweb-design/button"
 
 export const STATUS: {
   [key: string]: UploadStatus

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Calendar, CalendarProps } from "@illa-design/react"
+import { Calendar, CalendarProps } from "@zweb-design/react"
 
 export default {
   title: "DATA DISPLAY/Calendar",

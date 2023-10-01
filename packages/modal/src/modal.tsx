@@ -12,21 +12,21 @@ import {
   modalAnimation,
   modalCloseIconStyle,
 } from "./style"
-import { Button } from "@illa-design/button"
+import { Button } from "@zweb-design/button"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import {
   CloseIcon,
   ErrorCircleIcon,
   InfoCircleIcon,
   SuccessCircleIcon,
   WarningCircleIcon,
-} from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
-import { TriggerProvider } from "@illa-design/trigger"
+} from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
+import { TriggerProvider } from "@zweb-design/trigger"
 import { AnimatePresence, motion } from "framer-motion"
 import React, { forwardRef, ReactNode, useContext, useMemo } from "react"
 import FocusLock from "react-focus-lock"

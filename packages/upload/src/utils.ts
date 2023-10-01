@@ -1,4 +1,4 @@
-import { isArray, isFunction } from "@illa-design/system"
+import { isArray, isFunction } from "@zweb-design/system"
 import { UploadItem, InternalDataTransferItem } from "./interface"
 import {
   FileDefaultIcon,
@@ -10,7 +10,7 @@ import {
   FileVideoIcon,
   FileWordIcon,
   FileWPSIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 import { KeyboardEvent } from "react"
 
 export const getIconType = (file: UploadItem) => {

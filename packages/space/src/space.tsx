@@ -1,8 +1,8 @@
 import { Children, forwardRef, Fragment, ReactElement } from "react"
 import { SpaceProps } from "./interface"
-import { Divider, DividerDirection } from "@illa-design/divider"
+import { Divider, DividerDirection } from "@zweb-design/divider"
 import { applyContainer, applyDividerSize } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Space = forwardRef<HTMLDivElement, SpaceProps>((props, ref) => {
   const {

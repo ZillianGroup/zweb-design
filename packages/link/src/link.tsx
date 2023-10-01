@@ -1,9 +1,9 @@
 import { forwardRef } from "react"
 import { LinkProps } from "./interface"
 import { applyDisable, applyLeftIcon, applyLinkContainer } from "./style"
-import { LinkIcon } from "@illa-design/icon"
+import { LinkIcon } from "@zweb-design/icon"
 import { css } from "@emotion/react"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Link = forwardRef<HTMLAnchorElement, LinkProps>((props, ref) => {
   const {

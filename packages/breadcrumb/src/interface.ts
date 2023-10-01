@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactNode } from "react"
-import { DropdownProps } from "@illa-design/dropdown"
-import { BoxProps } from "@illa-design/theme"
+import { DropdownProps } from "@zweb-design/dropdown"
+import { BoxProps } from "@zweb-design/theme"
 
 export type RouteProps = {
   path?: string

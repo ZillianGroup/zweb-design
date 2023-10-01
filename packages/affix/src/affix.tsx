@@ -5,8 +5,8 @@ import {
   useRef,
   useState,
 } from "react"
-import { isFunction, throttleByRaf } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { isFunction, throttleByRaf } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { useIsomorphicLayoutEffect } from "react-use"
 import { applyAffixFixedStyle, applySize } from "./style"
 import { AffixProps } from "./interface"

@@ -1,7 +1,7 @@
 import { forwardRef } from "react"
 import { TBodyProps } from "./interface"
 import { css } from "@emotion/react"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const TBody = forwardRef<HTMLTableSectionElement, TBodyProps>(
   (props, ref) => {

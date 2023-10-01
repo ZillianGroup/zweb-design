@@ -1,8 +1,8 @@
 import React, { forwardRef, ReactNode, useMemo } from "react"
 import { StepProps } from "./interface"
 import { applyIndexStyle, stepIconStyle } from "./style"
-import { ErrorIcon, NextIcon, SuccessIcon } from "@illa-design/icon"
-import { deleteCssProps, getColor } from "@illa-design/theme"
+import { ErrorIcon, NextIcon, SuccessIcon } from "@zweb-design/icon"
+import { deleteCssProps, getColor } from "@zweb-design/theme"
 import {
   applyHorizontalNavigationContainerStyle,
   applyHorizontalNavigationLineStyle,

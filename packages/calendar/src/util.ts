@@ -1,4 +1,4 @@
-import { def, Locale } from "@illa-design/config-provider"
+import { def, Locale } from "@zweb-design/config-provider"
 
 export function getMonthString(
   month: number,

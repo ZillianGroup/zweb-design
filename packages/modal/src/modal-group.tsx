@@ -2,7 +2,7 @@ import { FC, useEffect, useMemo, useState } from "react"
 import { modalStore } from "./modal-store"
 import { ModalShowProps } from "./interface"
 import { Modal } from "./modal"
-import { omit } from "@illa-design/system"
+import { omit } from "@zweb-design/system"
 
 export const ModalGroup: FC = () => {
   const [modalList, setModalList] = useState<ModalShowProps[]>([])

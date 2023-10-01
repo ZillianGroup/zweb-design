@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/calendar",
+  "name": "@zweb-design/calendar",
   "version": "1.0.31",
-  "description": "Illa Design Calendar.",
+  "description": "ZWeb Design Calendar.",
   "keywords": [
     "calendar",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "ILLA Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,23 +30,23 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/calendar"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build"
   },
   "dependencies": {
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
-    "@illa-design/config-provider": "workspace:*",
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/button": "workspace:*",
-    "@illa-design/radio": "workspace:*",
-    "@illa-design/select": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
+    "@zweb-design/config-provider": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/button": "workspace:*",
+    "@zweb-design/radio": "workspace:*",
+    "@zweb-design/select": "workspace:*",
     "dayjs": "^1.11.7"
   },
   "peerDependencies": {

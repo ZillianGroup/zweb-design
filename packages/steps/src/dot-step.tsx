@@ -7,8 +7,8 @@ import {
   horizontalStatusContainerStyle,
   horizontalTitleStyle,
 } from "./style/dot-line-horizontal-style"
-import { ErrorIcon, SuccessIcon } from "@illa-design/icon"
-import { deleteCssProps, getColor } from "@illa-design/theme"
+import { ErrorIcon, SuccessIcon } from "@zweb-design/icon"
+import { deleteCssProps, getColor } from "@zweb-design/theme"
 import { applyIndexStyle, applyStepDotStyle, stepIconStyle } from "./style"
 import {
   applyVerticalDescriptionStyle,

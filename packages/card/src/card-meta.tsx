@@ -11,8 +11,8 @@ import {
   avatarLayout,
   nicknameStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { Space } from "@illa-design/space"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { Space } from "@zweb-design/space"
 
 export const CardMeta = forwardRef<HTMLDivElement, CardMetaProps>(
   (props, ref) => {

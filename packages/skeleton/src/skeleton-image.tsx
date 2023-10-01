@@ -1,6 +1,6 @@
 import { SkeletonImageProps } from "./interface"
 import { applyAnimation, applyImageStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export function SkeletonImage(props: SkeletonImageProps) {
   const { shape = "circle", size = "medium", animation, ...restProps } = props

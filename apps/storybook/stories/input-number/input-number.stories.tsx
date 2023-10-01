@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { InputNumber, InputNumberProps, Space } from "@illa-design/react"
+import { InputNumber, InputNumberProps, Space } from "@zweb-design/react"
 import { useState } from "react"
 
 //👇 This default export determines where your story goes in the story list

@@ -1,7 +1,7 @@
-import { isArray } from "@illa-design/system"
+import { isArray } from "@zweb-design/system"
 import { SkeletonTextProps } from "./interface"
 import { applyAnimation, applyLineStyle, textContainerStyle } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export function SkeletonText(props: SkeletonTextProps) {
   const { rows = 3, width = "80%", animation, ...restProps } = props

@@ -1,6 +1,6 @@
 import { ChangeEvent, forwardRef } from "react"
-import { isArray, useMergeValue } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { isArray, useMergeValue } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { RadioGroupProps } from "./interface"
 import { Radio } from "./radio"
 import { applyRadioGroupCss } from "./style"

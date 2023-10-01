@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type DescriptionAlign = "left" | "right"
 export type DescriptionSize = "small" | "medium" | "large"

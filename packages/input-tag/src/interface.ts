@@ -5,7 +5,7 @@ import {
   ReactNode,
   SyntheticEvent,
 } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type InputTagSize = "small" | "medium" | "large"
 export type InputTagColorScheme =

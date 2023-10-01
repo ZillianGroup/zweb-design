@@ -6,8 +6,8 @@ import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 import { AvatarGroupContext } from "./avatar-group-context"
 
 const avatarGroupCss = css`
@@ -39,7 +39,7 @@ export const AvatarGroup = forwardRef<HTMLDivElement, AvatarGroupProps>(
         <Avatar
           colorScheme={"gray"}
           text={`+${childrenCount - maxCount}`}
-          key="illa-more-avatar"
+          key="zweb-more-avatar"
         />,
       ]
     }
@@ -62,7 +62,7 @@ export const AvatarGroup = forwardRef<HTMLDivElement, AvatarGroupProps>(
 
       const style = css`
         margin-left: ${isFirstAvatar ? "0px" : marginLeft};
-        border: solid 2px ${globalColor(`--${illaPrefix}-white-01`)};
+        border: solid 2px ${globalColor(`--${zwebPrefix}-white-01`)};
         border-radius: 50%;
         z-index: ${zIndexAscend ? index : nodeList.length - index};
       `

@@ -1,23 +1,23 @@
 
 <div align="center">
-    <img alt="ILLA Design Logo" width="120px" height="120px" src="./.github/assets/images/logo.svg"/>
+    <img alt="ZWEB Design Logo" width="120px" height="120px" src="./.github/assets/images/logo.svg"/>
 </div>
 
-<h1 align="center">ILLA Design</h1>
+<h1 align="center">ZWEB Design</h1>
 
 <p align="center">Accelerate your internal tools development.</p>
 
 <div align="center">
-  <p>Create with ❤︎ by <a href="https://github.com/illacloud/illa-design/graphs/contributors">contributors</a></p>
+  <p>Create with ❤︎ by <a href="https://github.com/zilliangroup/zweb-design/graphs/contributors">contributors</a></p>
 </div>
 
 ![cover](./.github/assets/images/design-cover.png)
 
-[![Chat on Discord](https://img.shields.io/badge/chat-Discord-7289DA?logo=discord)](https://discord.gg/illacloud)
-[![Follow on Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/illacloudHQ)
-[![storybook](./.github/assets/images/storybook.svg)](https://design.illafamily.com)
-[![codecov](https://codecov.io/gh/illacloud/illa-design/branch/main/graph/badge.svg?token=GR2SOLBWQN)](https://codecov.io/gh/illacloud/illa-design)
-[![license](https://img.shields.io/github/license/illacloud/illa-design)](./LICENSE)
+[![Chat on Discord](https://img.shields.io/badge/chat-Discord-7289DA?logo=discord)](https://discord.gg/zilliangroup)
+[![Follow on Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/zilliangroupHQ)
+[![storybook](./.github/assets/images/storybook.svg)](https://design.zwebfamily.com)
+[![codecov](https://codecov.io/gh/zilliangroup/zweb-design/branch/main/graph/badge.svg?token=GR2SOLBWQN)](https://codecov.io/gh/zilliangroup/zweb-design)
+[![license](https://img.shields.io/github/license/zilliangroup/zweb-design)](./LICENSE)
 [![contributing](https://badgen.net/badge/PRs/Welcome/green?icon=storybook)](./CONTRIBUTING.md)
 
 ## ✨ Features
@@ -34,34 +34,34 @@
 
 You can review all components in Storybook.
 
-[![storybook](./.github/assets/images/storybook.svg)](https://design.illafamily.com)
+[![storybook](./.github/assets/images/storybook.svg)](https://design.zwebfamily.com)
 
 ## 🖥 Fast Try
 
-You can quickly use ILLA Design on codesandbox.
+You can quickly use ZWEB Design on codesandbox.
 
-[![Edit illa-design-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/illa-design-demo-r1qyy2?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit zweb-design-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zweb-design-demo-r1qyy2?fontsize=14&hidenavigation=1&theme=dark)
 
 ## 🚀 Get Started
 
 Step 1: Install
 
 ```bash
-$ pnpm add @illa-design/react @emotion/react framer-motion
+$ pnpm add @zweb-design/react @emotion/react framer-motion
 
 # or
 
-$ npm i @illa-design/react @emotion/react framer-motion
+$ npm i @zweb-design/react @emotion/react framer-motion
 ```
 
 Step 2: Use
 
 ```tsx
-import { Tag } from '@illa-design/react';
+import { Tag } from '@zweb-design/react';
 
 const App = () => (
   <div>
-    <Tag>Hello ILLA</Tag>
+    <Tag>Hello ZWEB</Tag>
   </div>
 );
 ```
@@ -71,8 +71,8 @@ const App = () => (
 Step 1: Clone locally.
 
 ```bash
-$ git clone https://github.com/illacloud/illa-design.git
-$ cd illa-design
+$ git clone https://github.com/zilliangroup/zweb-design.git
+$ cd zweb-design
 $ pnpm install
 ```
 
@@ -86,19 +86,19 @@ Then your can open storybook in your browser.
 
 ## 💬 Community
 
-Join ILLA Community to share your ideas, suggestions or questions and connect with other users and contributors.
+Join ZWEB Community to share your ideas, suggestions or questions and connect with other users and contributors.
 
 <b>Discussion</b>
 
-[![Discuss on GitHub](https://img.shields.io/badge/discussions-GitHub-333333?logo=github)](https://github.com/orgs/illacloud/discussions)
+[![Discuss on GitHub](https://img.shields.io/badge/discussions-GitHub-333333?logo=github)](https://github.com/orgs/zilliangroup/discussions)
 
 <b>Hangout together!</b>
 
-[![Chat on Discord](https://img.shields.io/badge/chat-Discord-7289DA?logo=discord)](https://discord.gg/illacloud)
+[![Chat on Discord](https://img.shields.io/badge/chat-Discord-7289DA?logo=discord)](https://discord.gg/zilliangroup)
 
 ## 🌱 Contributing
 
-Thinking about contributing? All kinds of contributions to ILLA are greatly appreciated and welcomed! Check
+Thinking about contributing? All kinds of contributions to ZWEB are greatly appreciated and welcomed! Check
 out [Contributing Guide](./CONTRIBUTING.md) for details about how you can get involved.
 
 ## 🔥 We're Hiring
@@ -108,7 +108,7 @@ Looking for a passionate and creative team? We are actively hiring engineers for
 - Frontend Engineer
 - Golang Engineer
 
-Contact Us: hr@illasoft.com
+Contact Us: hr@zilliangroup.com
 
 ## License
 

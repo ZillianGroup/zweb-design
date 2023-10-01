@@ -1,14 +1,14 @@
 import { forwardRef, useRef, useState } from "react"
 import { CascaderProps } from "./interface"
-import { useMergeValue } from "@illa-design/system"
-import { DownIcon, LoadingIcon, UpIcon } from "@illa-design/icon"
-import { getColor } from "@illa-design/theme"
-import { Trigger } from "@illa-design/trigger"
+import { useMergeValue } from "@zweb-design/system"
+import { DownIcon, LoadingIcon, UpIcon } from "@zweb-design/icon"
+import { getColor } from "@zweb-design/theme"
+import { Trigger } from "@zweb-design/trigger"
 import { ListSelector } from "./list-selector"
 import { Selector } from "./selector"
-import { InputTag, TagObject } from "@illa-design/input-tag"
+import { InputTag, TagObject } from "@zweb-design/input-tag"
 import { getLabelListFromValueList } from "./util"
-import { InputTagRefHandler } from "@illa-design/input-tag/src"
+import { InputTagRefHandler } from "@zweb-design/input-tag/src"
 
 export const MultipleCascader = forwardRef<HTMLDivElement, CascaderProps>(
   (props, ref) => {

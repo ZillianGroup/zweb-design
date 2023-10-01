@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/breadcrumb",
+      name: "@zweb-design/breadcrumb",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -37,10 +37,10 @@ export default defineConfig({
         "react-dom",
         "@emotion/react",
         "framer-motion",
-        "@illa-design/system",
-        "@illa-design/theme",
-        "@illa-design/icon",
-        "@illa-design/dropdown",
+        "@zweb-design/system",
+        "@zweb-design/theme",
+        "@zweb-design/icon",
+        "@zweb-design/dropdown",
       ],
       output: {
         globals: {
@@ -48,10 +48,10 @@ export default defineConfig({
           "react-dom": "ReactDom",
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
-          "@illa-design/system": "@illa-design/system",
-          "@illa-design/theme": "@illa-design/theme",
-          "@illa-design/icon": "@illa-design/icon",
-          "@illa-design/dropdown": "@illa-design/dropdown",
+          "@zweb-design/system": "@zweb-design/system",
+          "@zweb-design/theme": "@zweb-design/theme",
+          "@zweb-design/icon": "@zweb-design/icon",
+          "@zweb-design/dropdown": "@zweb-design/dropdown",
         },
       },
     },

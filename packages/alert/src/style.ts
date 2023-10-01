@@ -1,19 +1,19 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 import { AlertType } from "./interface"
 
 export const colorMap = {
-  info: `${globalColor(`--${illaPrefix}-blue-07`)}`,
-  success: `${globalColor(`--${illaPrefix}-green-07`)}`,
-  warning: `${globalColor(`--${illaPrefix}-orange-07`)}`,
-  error: `${globalColor(`--${illaPrefix}-red-07`)}`,
+  info: `${globalColor(`--${zwebPrefix}-blue-07`)}`,
+  success: `${globalColor(`--${zwebPrefix}-green-07`)}`,
+  warning: `${globalColor(`--${zwebPrefix}-orange-07`)}`,
+  error: `${globalColor(`--${zwebPrefix}-red-07`)}`,
 }
 
 export const iconColorMap = {
-  info: `${globalColor(`--${illaPrefix}-blue-03`)}`,
-  success: `${globalColor(`--${illaPrefix}-green-03`)}`,
-  warning: `${globalColor(`--${illaPrefix}-orange-03`)}`,
-  error: `${globalColor(`--${illaPrefix}-red-03`)}`,
+  info: `${globalColor(`--${zwebPrefix}-blue-03`)}`,
+  success: `${globalColor(`--${zwebPrefix}-green-03`)}`,
+  warning: `${globalColor(`--${zwebPrefix}-orange-03`)}`,
+  error: `${globalColor(`--${zwebPrefix}-red-03`)}`,
 }
 
 export const leftContentStyle = css`

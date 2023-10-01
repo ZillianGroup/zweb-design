@@ -5,8 +5,8 @@ import { BasicBodySection } from "../basic-body-section"
 import { RowType } from "../interface"
 import { yearPanelStyle } from "./style"
 import { BasicHeaderSection } from "../basic-header-section"
-import { NextDoubleIcon, PreviousDoubleIcon } from "@illa-design/icon"
-import { dayjsPro } from "@illa-design/system"
+import { NextDoubleIcon, PreviousDoubleIcon } from "@zweb-design/icon"
+import { dayjsPro } from "@zweb-design/system"
 
 const isSameYear = (current: Dayjs, target: Dayjs) =>
   current.isSame(target, "year")

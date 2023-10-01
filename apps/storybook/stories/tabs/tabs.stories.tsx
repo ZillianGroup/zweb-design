@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { TabPane, Tabs, TabsProps, InfoIcon } from "@illa-design/react"
+import { TabPane, Tabs, TabsProps, InfoIcon } from "@zweb-design/react"
 import { ReactNode } from "react"
 
 //👇 This default export determines where your story goes in the story list

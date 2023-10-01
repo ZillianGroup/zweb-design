@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/avatar",
+      name: "@zweb-design/avatar",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -37,10 +37,10 @@ export default defineConfig({
         "react-dom",
         "@emotion/react",
         "framer-motion",
-        "@illa-design/icon",
-        "@illa-design/image",
-        "@illa-design/system",
-        "@illa-design/theme",
+        "@zweb-design/icon",
+        "@zweb-design/image",
+        "@zweb-design/system",
+        "@zweb-design/theme",
       ],
       output: {
         globals: {
@@ -48,10 +48,10 @@ export default defineConfig({
           "react-dom": "ReactDom",
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
-          "@illa-design/icon": "@illa-design/icon",
-          "@illa-design/image": "@illa-design/image",
-          "@illa-design/system": "@illa-design/system",
-          "@illa-design/theme": "@illa-design/theme",
+          "@zweb-design/icon": "@zweb-design/icon",
+          "@zweb-design/image": "@zweb-design/image",
+          "@zweb-design/system": "@zweb-design/system",
+          "@zweb-design/theme": "@zweb-design/theme",
         },
       },
     },

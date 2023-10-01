@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { InputTagColorScheme, InputTagSize } from "./interface"
-import { getColor, getColorShadow, zIndex } from "@illa-design/theme"
+import { getColor, getColorShadow, zIndex } from "@zweb-design/theme"
 
 export function applyInputTagInputStyle(
   size: InputTagSize,

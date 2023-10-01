@@ -1,8 +1,8 @@
 import { createContext, forwardRef, MouseEvent, ReactNode } from "react"
 import { DropListProps } from "./interface"
 import { applyListCss } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { TriggerColorScheme } from "@illa-design/trigger"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { TriggerColorScheme } from "@zweb-design/trigger"
 
 export const DropListContext = createContext<{
   onClickItem?: (

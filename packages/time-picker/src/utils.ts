@@ -1,6 +1,6 @@
 import { TimePickerValue } from "./"
 import type { Dayjs } from "dayjs"
-import { dayjsPro, getDayjsValue, isDayjs } from "@illa-design/system"
+import { dayjsPro, getDayjsValue, isDayjs } from "@zweb-design/system"
 
 export const getColumnsFromFormat = (format: string) => {
   const units = ["H", "h", "m", "s", "a", "A"]

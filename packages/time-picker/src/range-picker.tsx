@@ -14,16 +14,16 @@ import {
   isValidTimeString,
   isDayjsArrayChange,
   getSortedDayjsArray,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import { PickerContext } from "./context"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import { RangePickerProps } from "./"
-import { TimeIcon } from "@illa-design/icon"
+import { TimeIcon } from "@zweb-design/icon"
 import { getDefaultValue, getFormat, getFormatTime } from "./utils"
 import { RangePickerBody } from "./popup/range-picker-body"
 import { RangeDateInput } from "./input/rangeInput"
 import { DateInputRangeHandler } from "./input/interface"
-import { applyBoxStyle } from "@illa-design/theme"
+import { applyBoxStyle } from "@zweb-design/theme"
 import type { Dayjs } from "dayjs"
 
 export const RangePicker = forwardRef<HTMLDivElement, RangePickerProps>(

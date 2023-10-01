@@ -15,9 +15,9 @@ import {
   textareaContainerStyle,
   textareaStyle,
 } from "./style"
-import { mergeRefs, useMergeValue } from "@illa-design/system"
-import { ClearIcon } from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { mergeRefs, useMergeValue } from "@zweb-design/system"
+import { ClearIcon } from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 import autoSizeTextAreaHeight from "./autoSizeTextAreaHeight"
 import { useIsomorphicLayoutEffect } from "framer-motion"
 

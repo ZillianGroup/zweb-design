@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type LinkColorScheme =
   | string

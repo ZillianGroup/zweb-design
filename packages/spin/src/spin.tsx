@@ -1,13 +1,13 @@
 import { cloneElement, forwardRef, ReactElement, useMemo } from "react"
 import { SpinProps } from "./interface"
-import { LoadingIcon } from "@illa-design/icon"
+import { LoadingIcon } from "@zweb-design/icon"
 import {
   applyContainerStyle,
   applySizeCss,
   applySpinContainerCss,
   applyTipsStyle,
 } from "./styles"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Spin = forwardRef<HTMLDivElement, SpinProps>((props, ref) => {
   const {

@@ -7,7 +7,7 @@ import {
 } from "./style"
 import { css } from "@emotion/react"
 import { RowContext } from "./row-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Row = forwardRef<HTMLDivElement, RowProps>((props, ref) => {
   const { align, justify, horizontalGap, verticalGap, ...otherProps } = props

@@ -1,5 +1,5 @@
 import { useEffect, useRef, forwardRef } from "react"
-import { isObject } from "@illa-design/system"
+import { isObject } from "@zweb-design/system"
 import { applySliderBar } from "./style"
 import { SliderBar } from "./interface"
 import { motion, PanInfo, useMotionValue } from "framer-motion"

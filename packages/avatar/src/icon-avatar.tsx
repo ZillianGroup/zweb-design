@@ -1,7 +1,7 @@
 import { FC } from "react"
 import { AvatarProps } from "./interface"
 import { applyIconSize, applyMergeCss } from "./style"
-import { PeopleIcon } from "@illa-design/icon"
+import { PeopleIcon } from "@zweb-design/icon"
 
 export const IconAvatar: FC<AvatarProps> = (props) => {
   const currentColorScheme = props.colorScheme ?? "blue"

@@ -11,7 +11,7 @@ import {
   tabsItemAfterStyle,
   titleStyle,
 } from "./style"
-import { CloseIcon } from "@illa-design/icon"
+import { CloseIcon } from "@zweb-design/icon"
 
 export const TabPane: FC<TabPaneProps> = (props) => {
   const {

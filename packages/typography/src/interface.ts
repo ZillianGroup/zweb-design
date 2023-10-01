@@ -1,7 +1,7 @@
 import { HTMLAttributes, ReactNode } from "react"
 import { Ellipsis } from "./ellipsis-config"
 import { Copyable } from "./copyable-config"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type TypographyColorScheme =
   | string

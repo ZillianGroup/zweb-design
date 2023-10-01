@@ -1,13 +1,13 @@
 import { ReactNode } from "react"
-import { CopyIcon, SuccessCircleIcon } from "@illa-design/icon"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { CopyIcon, SuccessCircleIcon } from "@zweb-design/icon"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export class Copyable {
   copyIcon: ReactNode = (
-    <CopyIcon color={globalColor(`--${illaPrefix}-grayBlue-01`)} />
+    <CopyIcon color={globalColor(`--${zwebPrefix}-grayBlue-01`)} />
   )
   copiedIcon: ReactNode = (
-    <SuccessCircleIcon color={globalColor(`--${illaPrefix}-green-03`)} />
+    <SuccessCircleIcon color={globalColor(`--${zwebPrefix}-green-03`)} />
   )
   copiedToolTip: boolean | string | ReactNode
   copyToolTip: boolean | string | ReactNode

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Button, Alert, AlertProps } from "@illa-design/react"
+import { Button, Alert, AlertProps } from "@zweb-design/react"
 
 export default {
   title: "FEEDBACK/Alert",

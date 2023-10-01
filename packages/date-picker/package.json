@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/date-picker",
+  "name": "@zweb-design/date-picker",
   "version": "1.0.31",
-  "description": "Illa Design Date-Picker.",
+  "description": "ZWeb Design Date-Picker.",
   "keywords": [
     "date-picker",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "illa Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "zweb Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,23 +30,23 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/date-picker"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "scripts": {
     "build": "vite build"
   },
   "dependencies": {
-    "@illa-design/system": "workspace:*",
-    "@illa-design/theme": "workspace:*",
-    "@illa-design/trigger": "workspace:*",
-    "@illa-design/config-provider": "workspace:*",
-    "@illa-design/icon": "workspace:*",
-    "@illa-design/button": "workspace:*",
-    "@illa-design/time-picker": "workspace:*",
+    "@zweb-design/system": "workspace:*",
+    "@zweb-design/theme": "workspace:*",
+    "@zweb-design/trigger": "workspace:*",
+    "@zweb-design/config-provider": "workspace:*",
+    "@zweb-design/icon": "workspace:*",
+    "@zweb-design/button": "workspace:*",
+    "@zweb-design/time-picker": "workspace:*",
     "dayjs": "^1.11.7"
   },
   "peerDependencies": {

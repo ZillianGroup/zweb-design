@@ -1,5 +1,5 @@
 import { InputHTMLAttributes, ReactNode, SyntheticEvent } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type InputNumberSize = "small" | "medium" | "large"
 export type InputNumberMode = "embed" | "button"

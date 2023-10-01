@@ -5,7 +5,7 @@ import {
   getSortedDayjsArray,
   isArray,
   isInRange,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import { getAvailableDayjsLength, getIsRangeStartOrEnd } from "./dateHelper"
 import { DatePickerModeType, DatePickerValue } from "../interface"
 

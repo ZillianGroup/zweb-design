@@ -5,7 +5,7 @@ import {
   getDayjsValue,
   dayjsPro,
   getNow,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import { DatePickerValue, DatePickerModeType } from "../interface"
 import { ONE_PAGE_WITH_DAYS } from "../panels/date"
 

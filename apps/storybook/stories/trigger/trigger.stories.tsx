@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Trigger, TriggerProps, Button, Space, Input } from "@illa-design/react"
+import { Trigger, TriggerProps, Button, Space, Input } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

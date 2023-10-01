@@ -1,4 +1,4 @@
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import { css, SerializedStyles } from "@emotion/react"
 import { SwitchColorScheme, SwitchSize } from "./interface"
 
@@ -28,9 +28,9 @@ export function applySwitch(
   const isInnerColor: boolean = innerColor.indexOf(colorScheme) > -1
   let bgc = checked
     ? isInnerColor
-      ? globalColor(`--${illaPrefix}-${colorScheme}-01`)
+      ? globalColor(`--${zwebPrefix}-${colorScheme}-01`)
       : colorScheme
-    : globalColor(`--${illaPrefix}-grayBlue-06`)
+    : globalColor(`--${zwebPrefix}-grayBlue-06`)
   return css`
     position: relative;
     border-radius: 16px;
@@ -50,11 +50,11 @@ export function applySwitch(
     &:disabled {
       cursor: not-allowed;
       background-color: ${isInnerColor && checked
-        ? globalColor(`--${illaPrefix}-${colorScheme}-06`)
-        : globalColor(`--${illaPrefix}-grayBlue-08`)};
+        ? globalColor(`--${zwebPrefix}-${colorScheme}-06`)
+        : globalColor(`--${zwebPrefix}-grayBlue-08`)};
       color: ${isInnerColor && checked
-        ? globalColor(`--${illaPrefix}-${colorScheme}-06`)
-        : globalColor(`--${illaPrefix}-grayBlue-08`)};
+        ? globalColor(`--${zwebPrefix}-${colorScheme}-06`)
+        : globalColor(`--${zwebPrefix}-grayBlue-08`)};
     }
   `
 }
@@ -75,7 +75,7 @@ export function applySwitchDot(
     : `left:${dotSpacing}`
   const dotShadow = disabled
     ? ""
-    : `box-shadow:0 1px 2px ${globalColor(`--${illaPrefix}-blackAlpha-05`)}`
+    : `box-shadow:0 1px 2px ${globalColor(`--${zwebPrefix}-blackAlpha-05`)}`
   return css`
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ export function applySwitchDot(
     height: ${dotSize};
     border-radius: 50%;
     ${dotShadow};
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     transition: all 0.2s ease-in-out;
   `
 }
@@ -113,7 +113,7 @@ export function applySwitchText(
     ? `margin:0 ${spacingLong}px 0 ${spacingShort}px`
     : `margin:0 ${spacingShort}px 0 ${spacingLong}px`
   return css`
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
     ${textSize};
     ${textMargin};
     white-space: pre;

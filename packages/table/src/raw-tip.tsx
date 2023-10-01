@@ -1,4 +1,4 @@
-import { createIcon } from "@illa-design/icon"
+import { createIcon } from "@zweb-design/icon"
 
 export const RawTip = createIcon({
   title: "Raw",

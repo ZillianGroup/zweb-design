@@ -5,7 +5,7 @@ import {
   PropsWithChildren,
   ReactElement,
 } from "react"
-import { isArray, useMergeValue } from "@illa-design/system"
+import { isArray, useMergeValue } from "@zweb-design/system"
 import { CheckboxGroupProps, CheckboxOption, CheckboxProps } from "./interface"
 import { SerializedStyles } from "@emotion/react"
 import { Checkbox } from "./checkbox"
@@ -14,7 +14,7 @@ import {
   applyCheckboxContainerVertical,
 } from "./style"
 import { CheckboxGroupContext } from "./context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const CheckboxGroup = forwardRef<HTMLDivElement, CheckboxGroupProps>(
   (props, ref) => {

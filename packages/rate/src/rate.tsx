@@ -1,8 +1,8 @@
 import { forwardRef, Fragment, useCallback, useMemo, useState } from "react"
 import { divide, times } from "number-precision"
 import { RateProps } from "./interface"
-import { LikeFillIcon, StarFillIcon } from "@illa-design/icon"
-import { Trigger } from "@illa-design/trigger"
+import { LikeFillIcon, StarFillIcon } from "@zweb-design/icon"
+import { Trigger } from "@zweb-design/trigger"
 import {
   applyRate,
   applyRateCharacter,
@@ -10,7 +10,7 @@ import {
   applyRateCharacterRight,
   applyRateInner,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Rate = forwardRef<HTMLDivElement, RateProps>((props, ref) => {
   const {

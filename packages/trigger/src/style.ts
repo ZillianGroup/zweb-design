@@ -4,8 +4,8 @@ import {
   getColor,
   getColorShadow,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 import { getAnimation } from "./transform"
 import { Variants } from "framer-motion"
 
@@ -30,8 +30,8 @@ export function applyTipsText(
       : getColor(colorScheme, "02")
   const textColor =
     colorScheme == "white"
-      ? globalColor(`--${illaPrefix}-grayBlue-02`)
-      : globalColor(`--${illaPrefix}-white-01`)
+      ? globalColor(`--${zwebPrefix}-grayBlue-02`)
+      : globalColor(`--${zwebPrefix}-white-01`)
 
   let paddingHor = "12px"
 

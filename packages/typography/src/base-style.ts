@@ -1,6 +1,6 @@
 import { TypographyColorScheme } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 const colorSchemes = [
   "white",
@@ -30,7 +30,7 @@ export function applyFontColor(
   colorScheme: TypographyColorScheme,
 ): SerializedStyles {
   const color = colorSchemes.includes(colorScheme)
-    ? globalColor(`--${illaPrefix}-${colorScheme}-02`)
+    ? globalColor(`--${zwebPrefix}-${colorScheme}-02`)
     : colorScheme
 
   return css`
@@ -57,12 +57,12 @@ export function applyFontContentStyle(
   if (mark && typeof mark != "string") {
     finalCss = css`
       ${finalCss};
-      background-color: ${globalColor(`--${illaPrefix}-yellow-06`)};
+      background-color: ${globalColor(`--${zwebPrefix}-yellow-06`)};
     `
   }
   if (typeof mark == "string") {
     const bgColor = colorSchemes.includes(mark)
-      ? globalColor(`--${illaPrefix}-${mark}-06`)
+      ? globalColor(`--${zwebPrefix}-${mark}-06`)
       : mark
     finalCss = css`
       ${finalCss};
@@ -79,7 +79,7 @@ export function applyFontContentStyle(
     finalCss = css`
       ${finalCss};
       cursor: not-allowed;
-      color: ${globalColor(`--${illaPrefix}-grayBlue-05`)};
+      color: ${globalColor(`--${zwebPrefix}-grayBlue-05`)};
       user-select: none;
     `
   }
@@ -92,7 +92,7 @@ export function applyExpandLabelCss(): SerializedStyles {
     cursor: pointer;
     margin: 0 4px;
     text-decoration: none;
-    color: ${globalColor(`--${illaPrefix}-blue-03`)};
+    color: ${globalColor(`--${zwebPrefix}-blue-03`)};
   `
 }
 
@@ -100,7 +100,7 @@ export function applyCopyableContainerSize(): SerializedStyles {
   return css`
     cursor: pointer;
     margin-left: 4px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   `
 }
 
@@ -108,7 +108,7 @@ export const applyCopyableIconSize = css`
   cursor: pointer;
   font-size: 0.75em;
   margin-left: 4px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   display: inline-flex;
   align-items: center;
 `

@@ -17,7 +17,7 @@ import {
   tabsContainerStyle,
   tabsStyle,
 } from "./style"
-import { UpIcon, DownIcon, PreviousIcon } from "@illa-design/icon"
+import { UpIcon, DownIcon, PreviousIcon } from "@zweb-design/icon"
 import { isHorizontalLayout } from "./utils"
 import { SCROLL_ICON_WIDTH } from "./constants"
 

@@ -15,15 +15,15 @@ import {
   toTimezone,
   usePrevious,
   isValidTimeString,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import { PickerContext } from "./context"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import { DateInput } from "./input/singleInput"
 import { TimePickerProps } from "./"
 import { TimePickerPopup } from "./popup/time-picker-body"
-import { TimeIcon } from "@illa-design/icon"
+import { TimeIcon } from "@zweb-design/icon"
 import { getDefaultValue, getFormat } from "./utils"
-import { applyBoxStyle } from "@illa-design/theme"
+import { applyBoxStyle } from "@zweb-design/theme"
 import type { Dayjs } from "dayjs"
 
 export const TimePicker = forwardRef<HTMLDivElement, TimePickerProps>(

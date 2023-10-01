@@ -6,7 +6,7 @@ import {
   def,
   koKR,
   zhCN,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import {
   applyCalendarContainerStyle,
   applyCalendarHeaderStyle,
@@ -16,15 +16,15 @@ import {
   headerSpaceStyle,
   headerTextStyle,
 } from "./styles/complete-calendar-style"
-import { useMergeValue } from "@illa-design/system"
+import { useMergeValue } from "@zweb-design/system"
 import dayjs, { Dayjs } from "dayjs"
-import { NextIcon, PreviousIcon } from "@illa-design/icon"
-import { Button } from "@illa-design/button"
-import { RadioGroup } from "@illa-design/radio"
+import { NextIcon, PreviousIcon } from "@zweb-design/icon"
+import { Button } from "@zweb-design/button"
+import { RadioGroup } from "@zweb-design/radio"
 import { MonthBigCalendar } from "./month-big-calendar"
 import { YearBigCalendar } from "./year-big-calendar"
-import { Select } from "@illa-design/select"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { Select } from "@zweb-design/select"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 import { getMonthString } from "./util"
 
 export const CompleteCalendar = forwardRef<HTMLDivElement, CalendarProps>(

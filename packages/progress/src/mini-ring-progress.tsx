@@ -1,13 +1,13 @@
 import { forwardRef } from "react"
 import { ProgressProps } from "./interface"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import {
   applyContainer,
   applyProgressContainer,
   applyProgressContainerBg,
   applySvgContainer,
 } from "./common-style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const MiniRingProgress = forwardRef<HTMLDivElement, ProgressProps>(
   (props, ref) => {

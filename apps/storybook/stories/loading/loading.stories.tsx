@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Loading, LoadingProps } from "@illa-design/react"
+import { Loading, LoadingProps } from "@zweb-design/react"
 
 export default {
   title: "GENERAL/Loading",

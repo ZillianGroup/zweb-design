@@ -2,7 +2,7 @@ import React, { ReactNode, Fragment } from "react"
 import PictureItem from "./pictureItem"
 import TextItem from "./textItem"
 import { UploadItem, UploadListProps } from "../interface"
-import { isFunction } from "@illa-design/system"
+import { isFunction } from "@zweb-design/system"
 import {
   getUploadListContainerStyle,
   listItemStyle,

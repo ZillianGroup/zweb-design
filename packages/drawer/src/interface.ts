@@ -1,5 +1,5 @@
 import { HTMLAttributes, MouseEvent, ReactNode } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 import { SerializedStyles } from "@emotion/react"
 
 export type DrawerPlacement = "top" | "bottom" | "left" | "right"

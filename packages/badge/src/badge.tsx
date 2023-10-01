@@ -1,6 +1,6 @@
 import { CSSProperties, forwardRef, useMemo } from "react"
 import { BadgeProps } from "./interface"
-import { isObject } from "@illa-design/system"
+import { isObject } from "@zweb-design/system"
 import {
   applyBadge,
   applyBadgeDot,
@@ -11,7 +11,7 @@ import {
 } from "./style"
 
 import { Count } from "./count"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Badge = forwardRef<HTMLSpanElement, BadgeProps>((props, ref) => {
   const {

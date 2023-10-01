@@ -8,8 +8,8 @@ import {
   verticalSubMenuIcon,
   verticalSubMenuLabel,
 } from "./style"
-import { deleteCssProps } from "@illa-design/theme"
-import { DownIcon, UpIcon } from "@illa-design/icon"
+import { deleteCssProps } from "@zweb-design/theme"
+import { DownIcon, UpIcon } from "@zweb-design/icon"
 import { AnimatePresence, motion } from "framer-motion"
 
 export const VerticalSubMenu = forwardRef<HTMLDivElement, SubMenuProps>(

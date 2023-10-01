@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix, zIndex } from "@illa-design/theme"
+import { globalColor, zwebPrefix, zIndex } from "@zweb-design/theme"
 import { Variants } from "framer-motion"
 import { NotificationPosition } from "./interface"
 
@@ -12,10 +12,10 @@ export function applyNotification(closable?: boolean): SerializedStyles {
     width: 320px;
     display: flex;
     box-sizing: border-box;
-    box-shadow: 0 4px 10px 0 ${globalColor(`--${illaPrefix}-blackAlpha-07`)};
+    box-shadow: 0 4px 10px 0 ${globalColor(`--${zwebPrefix}-blackAlpha-07`)};
     border-radius: 8px;
-    border: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    border: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     flex-direction: column;
   `
 }
@@ -28,13 +28,13 @@ export const applyNotificationContentWrapper = css`
 export const applyNotificationTitle = css`
   font-size: 16px;
   font-weight: 500;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   margin-bottom: 4px;
 `
 
 export const applyNotificationContentStyle = css`
   font-size: 14px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `
 
 export const applyNotificationCloseBtn = css`
@@ -43,7 +43,7 @@ export const applyNotificationCloseBtn = css`
   top: 16px;
   font-size: 8px;
   line-height: 0;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
   cursor: pointer;
   width: 24px;
   height: 24px;

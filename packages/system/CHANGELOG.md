@@ -1,4 +1,4 @@
-# @illa-design/system
+# @zweb-design/system
 
 ## 1.0.28
 

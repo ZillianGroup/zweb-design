@@ -1,5 +1,5 @@
 import { css } from "@emotion/react"
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const headerCss = css`
   display: flex;
@@ -22,7 +22,7 @@ export const backIconCss = css`
   justify-content: center;
   align-items: center;
   &:hover {
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
   }
 `
 
@@ -43,7 +43,7 @@ export const separateCss = css`
 `
 
 export const subTitleCss = css`
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
   font-size: 14px;
 `
 

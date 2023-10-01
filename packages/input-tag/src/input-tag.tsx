@@ -6,7 +6,7 @@ import {
   useState,
 } from "react"
 import { InputTagProps, TagObject } from "./interface"
-import { useMergeValue } from "@illa-design/system"
+import { useMergeValue } from "@zweb-design/system"
 import {
   applyAddBeforeAfterStyle,
   applyInputContainerStyle,
@@ -18,9 +18,9 @@ import {
   tagsListStyle,
   tagStyle,
 } from "./style"
-import { Tag } from "@illa-design/tag"
-import { ClearIcon } from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { Tag } from "@zweb-design/tag"
+import { ClearIcon } from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 import useMeasure from "react-use-measure"
 import { css } from "@emotion/react"
 

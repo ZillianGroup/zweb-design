@@ -1,11 +1,11 @@
 import { FC, useContext } from "react"
-import { Button } from "@illa-design/button"
+import { Button } from "@zweb-design/button"
 import { BasicFooterProps } from "./interface"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import {
   footerBtnWrapperStyle,
   footerExtraWrapperStyle,

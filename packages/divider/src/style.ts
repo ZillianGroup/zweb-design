@@ -4,7 +4,7 @@ import {
   DividerVariant,
 } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export function applyDividerContainerHorizontal(
   color: DividerColorScheme,
@@ -27,11 +27,11 @@ export function applyDividerContainerHorizontal(
   }
 
   const c =
-    globalColor(`--${illaPrefix}-${color}-08`) === ""
-      ? globalColor(`--${illaPrefix}-${color}-03`) === ""
+    globalColor(`--${zwebPrefix}-${color}-08`) === ""
+      ? globalColor(`--${zwebPrefix}-${color}-03`) === ""
         ? color
-        : globalColor(`--${illaPrefix}-${color}-03`)
-      : globalColor(`--${illaPrefix}-${color}-08`)
+        : globalColor(`--${zwebPrefix}-${color}-03`)
+      : globalColor(`--${zwebPrefix}-${color}-08`)
   return css`
     vertical-align: middle;
     border-style: ${variant};
@@ -64,11 +64,11 @@ export function applyDividerContainerVertical(
   }
 
   const c =
-    globalColor(`--${illaPrefix}-${color}-08`) === ""
-      ? globalColor(`--${illaPrefix}-${color}-03`) === ""
+    globalColor(`--${zwebPrefix}-${color}-08`) === ""
+      ? globalColor(`--${zwebPrefix}-${color}-03`) === ""
         ? color
-        : globalColor(`--${illaPrefix}-${color}-03`)
-      : globalColor(`--${illaPrefix}-${color}-08`)
+        : globalColor(`--${zwebPrefix}-${color}-03`)
+      : globalColor(`--${zwebPrefix}-${color}-08`)
   return css`
     display: inline-flex;
     vertical-align: middle;
@@ -105,9 +105,9 @@ export function applyTextStyle(
   fs: string,
 ): SerializedStyles {
   const c =
-    globalColor(`--${illaPrefix}-${color}-02`) === ""
+    globalColor(`--${zwebPrefix}-${color}-02`) === ""
       ? color
-      : globalColor(`--${illaPrefix}-${color}-02`)
+      : globalColor(`--${zwebPrefix}-${color}-02`)
   return css`
     color: ${c};
     margin-left: 16px;

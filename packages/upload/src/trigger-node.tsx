@@ -9,14 +9,14 @@ import {
   DragEvent,
   useCallback,
 } from "react"
-import { Button } from "@illa-design/button"
-import { UploadIcon, AddIcon } from "@illa-design/icon"
+import { Button } from "@zweb-design/button"
+import { UploadIcon, AddIcon } from "@zweb-design/icon"
 import { TriggerNodeProps } from "./interface"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import { getAcceptedFiles, loopDirectory } from "./utils"
 import {
   dragContentContainerStyle,

@@ -10,8 +10,8 @@ import {
 } from "./style"
 import { css } from "@emotion/react"
 import { TableContext } from "./table-context"
-import { mergeRefs } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { mergeRefs } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Th = forwardRef<HTMLTableHeaderCellElement, ThProps>(
   (props, ref) => {

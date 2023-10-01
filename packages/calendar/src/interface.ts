@@ -1,7 +1,7 @@
 import { HTMLAttributes } from "react"
 
 import { Dayjs } from "dayjs"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type CalendarMode = "month" | "year" | "day"
 

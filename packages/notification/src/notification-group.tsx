@@ -4,7 +4,7 @@ import { NotificationProps } from "./interface"
 import { notificationStore } from "./notification-store"
 import { Notification } from "./notification"
 import { applyNotificationContainerStyle } from "./style"
-import { applyBoxStyle, BoxProps } from "@illa-design/theme"
+import { applyBoxStyle, BoxProps } from "@zweb-design/theme"
 
 export const NotificationGroup: FC<BoxProps> = (props) => {
   const [topLeftNotificationList, setTopLeftNotificationList] = useState<

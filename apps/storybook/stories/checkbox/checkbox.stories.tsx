@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Checkbox, CheckboxProps } from "@illa-design/react"
+import { Checkbox, CheckboxProps } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,5 +8,5 @@ export default {
 } as Meta
 
 export const Basic: StoryFn<CheckboxProps> = (args) => {
-  return <Checkbox {...args}>ILLA</Checkbox>
+  return <Checkbox {...args}>ZWEB</Checkbox>
 }

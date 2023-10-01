@@ -8,7 +8,7 @@ import {
   statisticStyle,
   statisticTitleStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Countdown = forwardRef<HTMLDivElement, CountDownProps>(
   (props, ref) => {

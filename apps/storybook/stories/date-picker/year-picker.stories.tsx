@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { SingleYearPickerProps, SingleYearPicker } from "@illa-design/react"
+import { SingleYearPickerProps, SingleYearPicker } from "@zweb-design/react"
 
 export default {
   title: "DATA INPUT/DatePicker",

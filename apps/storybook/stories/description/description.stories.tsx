@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Description, DescriptionProps } from "@illa-design/react"
+import { Description, DescriptionProps } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -13,7 +13,7 @@ export const Basic: StoryFn<DescriptionProps> = (args) => (
     data={[
       {
         label: "Name",
-        value: "ILLA",
+        value: "ZWEB",
       },
       {
         label: "Mobile",

@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/space",
+      name: "@zweb-design/space",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -37,9 +37,9 @@ export default defineConfig({
         "react-dom",
         "@emotion/react",
         "framer-motion",
-        "@illa-design/system",
-        "@illa-design/theme",
-        "@illa-design/divider",
+        "@zweb-design/system",
+        "@zweb-design/theme",
+        "@zweb-design/divider",
       ],
       output: {
         globals: {
@@ -47,9 +47,9 @@ export default defineConfig({
           "react-dom": "ReactDom",
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
-          "@illa-design/system": "@illa-design/system",
-          "@illa-design/theme": "@illa-design/theme",
-          "@illa-design/divider": "@illa-design/divider",
+          "@zweb-design/system": "@zweb-design/system",
+          "@zweb-design/theme": "@zweb-design/theme",
+          "@zweb-design/divider": "@zweb-design/divider",
         },
       },
     },

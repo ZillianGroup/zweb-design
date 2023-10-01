@@ -4,7 +4,7 @@ import {
   MenuItemProps,
   MenuProps,
   SubMenuProps,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"
 import { BsTwitter } from "react-icons/bs"
 

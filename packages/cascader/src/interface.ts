@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactNode, SyntheticEvent } from "react"
-import { BoxProps } from "@illa-design/theme"
-import { TriggerProps, TriggerTrigger } from "@illa-design/trigger"
+import { BoxProps } from "@zweb-design/theme"
+import { TriggerProps, TriggerTrigger } from "@zweb-design/trigger"
 
 export type CascaderSize = "small" | "medium" | "large"
 

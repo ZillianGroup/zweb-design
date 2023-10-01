@@ -1,5 +1,5 @@
 import { css } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const applyCircleStatus = css`
   position: absolute;
@@ -11,5 +11,5 @@ export const applyProgressText = css`
   position: absolute;
   line-height: 22px;
   font-size: 14px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `

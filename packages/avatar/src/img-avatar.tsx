@@ -1,7 +1,7 @@
 import { FC } from "react"
 import { AvatarProps } from "./interface"
 import { applyAvatarSize, applyShape } from "./style"
-import { Image } from "@illa-design/image"
+import { Image } from "@zweb-design/image"
 
 export const ImgAvatar: FC<AvatarProps> = (props) => {
   const { size = "small", shape = "circle" } = props

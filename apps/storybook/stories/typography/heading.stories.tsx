@@ -5,7 +5,7 @@ import {
   Heading,
   HeadingProps,
   Typography,
-} from "@illa-design/react"
+} from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

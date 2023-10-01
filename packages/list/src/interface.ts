@@ -1,5 +1,5 @@
 import { HTMLAttributes, ReactNode, UIEventHandler } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type ListSize = "small" | "medium" | "large"
 

@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/theme",
+      name: "@zweb-design/theme",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -38,7 +38,7 @@ export default defineConfig({
         "@emotion/react",
         "framer-motion",
         "color",
-        "@illa-design/system",
+        "@zweb-design/system",
         "chroma-js",
       ],
       output: {
@@ -48,7 +48,7 @@ export default defineConfig({
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
           color: "color",
-          "@illa-design/system": "@illa-design/system",
+          "@zweb-design/system": "@zweb-design/system",
           "chroma-js": "chroma-js",
         },
       },

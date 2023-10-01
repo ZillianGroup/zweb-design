@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Breadcrumb, BreadcrumbItem, BreadcrumbProps } from "@illa-design/react"
+import { Breadcrumb, BreadcrumbItem, BreadcrumbProps } from "@zweb-design/react"
 import { AiFillHome } from "react-icons/ai"
 
 export default {

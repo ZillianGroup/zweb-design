@@ -1,5 +1,5 @@
 import { css, SerializedStyles, keyframes } from "@emotion/react"
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 import { LoadingColorScheme, LoadingSize } from "./interface"
 
 export const spin = keyframes`

@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactNode } from "react"
 import { SerializedStyles } from "@emotion/react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type TimelineDirection = "horizontal" | "vertical"
 export type TimelineMode = "left" | "right" | "alternate" | "top" | "bottom"

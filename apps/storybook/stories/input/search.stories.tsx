@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Search, SearchProps } from "@illa-design/react"
+import { Search, SearchProps } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

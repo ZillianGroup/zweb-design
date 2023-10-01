@@ -1,4 +1,4 @@
-import { DropListItem } from "@illa-design/dropdown"
+import { DropListItem } from "@zweb-design/dropdown"
 import { forwardRef } from "react"
 import { OptionProps } from "./interface"
 

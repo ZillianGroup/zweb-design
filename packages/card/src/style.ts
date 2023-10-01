@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import { CardSize } from "./interface"
 import { ReactNode } from "react"
 
@@ -8,15 +8,15 @@ export function applyCard(
   hoverable?: boolean,
 ): SerializedStyles {
   const border = bordered
-    ? `border: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)}`
+    ? `border: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)}`
     : ``
 
   const boxShadow = hoverable
-    ? `box-shadow: 0 4px 10px 0 ${globalColor(`--${illaPrefix}-blackAlpha-07`)}`
+    ? `box-shadow: 0 4px 10px 0 ${globalColor(`--${zwebPrefix}-blackAlpha-07`)}`
     : ""
   return css`
     font-size: 14px;
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     border-radius: 8px;
     transition: box-shadow 0.2s ease-in-out;
     ${border};
@@ -28,7 +28,7 @@ export function applyCard(
 
 export function applyMetaContainer(hoverable?: boolean): SerializedStyles {
   const boxShadow = hoverable
-    ? `box-shadow: 0 4px 10px 0 ${globalColor(`--${illaPrefix}-blackAlpha-07`)}`
+    ? `box-shadow: 0 4px 10px 0 ${globalColor(`--${zwebPrefix}-blackAlpha-07`)}`
     : ""
   return css`
     display: flex;
@@ -49,7 +49,7 @@ export function applyCardHeader(size: CardSize): SerializedStyles {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+    border-bottom: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     padding: ${paddingSize};
   `
 }
@@ -58,7 +58,7 @@ export const applyCardHeaderTitle = css`
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -66,7 +66,7 @@ export const applyCardHeaderTitle = css`
 `
 
 export const applyCardHeaderExtra = css`
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -77,7 +77,7 @@ export function applyCardBody(size: CardSize): SerializedStyles {
   return css`
     box-sizing: border-box;
     padding: ${paddingSize};
-    color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
   `
 }
 
@@ -89,16 +89,16 @@ export function applyCardMetaBody(
   const paddingSize = size === "small" ? `8px` : `16px`
 
   const border = bordered
-    ? `solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)}`
+    ? `solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)}`
     : ``
   return css`
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: ${paddingSize};
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     border-radius: ${cover ? "0 0 8px 8px" : "8px"};
-    color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
     border: ${border};
   `
 }
@@ -109,7 +109,7 @@ export const avatarLayout: SerializedStyles = css`
 
 export const nicknameStyle: SerializedStyles = css`
   font-size: 14px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
 `
 
 export const actionContainer: SerializedStyles = css`
@@ -142,7 +142,7 @@ export const applyCardActionItem = css`
   text-overflow: ellipsis;
   white-space: nowrap;
   cursor: pointer;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
   transition: color 0.2s ease-in-out;
 
   &:not(:last-child) {
@@ -150,12 +150,12 @@ export const applyCardActionItem = css`
   }
 
   &:hover {
-    color: ${globalColor(`--${illaPrefix}-blue-03`)};
+    color: ${globalColor(`--${zwebPrefix}-blue-03`)};
   }
 `
 
 export function applyCardGrid(): SerializedStyles {
-  const borderColor = globalColor(`--${illaPrefix}-grayBlue-08`)
+  const borderColor = globalColor(`--${zwebPrefix}-grayBlue-08`)
   return css`
     position: relative;
     box-sizing: border-box;
@@ -169,7 +169,7 @@ export function applyCardGrid(): SerializedStyles {
 export const applyCardMetaTitle = css`
   font-size: 16px;
   font-weight: 500;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -177,7 +177,7 @@ export const applyCardMetaTitle = css`
 
 export const applyCardMetaDescription = css`
   margin-top: 4px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `
 
 export const applyCardMetaFooter = css`

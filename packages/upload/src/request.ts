@@ -1,5 +1,5 @@
 import { RequestOptions, UploadRequestProps } from "./interface"
-import { isFunction, isArray } from "@illa-design/system"
+import { isFunction, isArray } from "@zweb-design/system"
 
 export const initialHandler = () => {}
 

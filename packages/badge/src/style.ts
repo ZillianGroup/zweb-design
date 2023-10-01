@@ -1,15 +1,15 @@
 import { css, keyframes, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
-import { isObject } from "@illa-design/system"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
+import { isObject } from "@zweb-design/system"
 import { BadgeColorScheme, BadgeStatus } from "./interface"
 import { ReactNode } from "react"
 
 const statusColor = {
-  default: `--${illaPrefix}-grayBlue-06`,
-  processing: `--${illaPrefix}-blue-03`,
-  success: `--${illaPrefix}-green-03`,
-  warning: `--${illaPrefix}-yellow-03`,
-  error: `--${illaPrefix}-red-03`,
+  default: `--${zwebPrefix}-grayBlue-06`,
+  processing: `--${zwebPrefix}-blue-03`,
+  success: `--${zwebPrefix}-green-03`,
+  warning: `--${zwebPrefix}-yellow-03`,
+  error: `--${zwebPrefix}-red-03`,
 }
 
 export const badgeScale = keyframes`
@@ -45,7 +45,7 @@ export function applyBadgeDot(
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    border: solid 1px ${globalColor(`--${illaPrefix}-white-01`)};
+    border: solid 1px ${globalColor(`--${zwebPrefix}-white-01`)};
     background-color: ${color};
     display: inline-block;
     ${position}
@@ -79,9 +79,9 @@ export function applyBadgeNumberOrText(
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.15s all linear;
-    border: solid 2px ${globalColor(`--${illaPrefix}-white-01`)};
+    border: solid 2px ${globalColor(`--${zwebPrefix}-white-01`)};
     background-color: ${color};
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
     text-align: center;
     white-space: pre;
     ${position + padding}
@@ -109,7 +109,7 @@ export const applyBadgeStatusText = css`
   margin-left: 9px;
   font-size: 12px;
   line-height: 1.33;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
 `
 
 export function getDotColor(
@@ -119,7 +119,7 @@ export function getDotColor(
 ): string {
   let colorStyle
   if (colorScheme) {
-    colorStyle = globalColor(`--${illaPrefix}-${colorScheme}-03`)
+    colorStyle = globalColor(`--${zwebPrefix}-${colorScheme}-03`)
     if (!colorStyle) {
       colorStyle = colorScheme
     }
@@ -130,7 +130,7 @@ export function getDotColor(
   colorStyle = colorStyle
     ? colorStyle
     : isObject(count)
-    ? globalColor(`--${illaPrefix}-white-01`)
-    : globalColor(`--${illaPrefix}-red-03`)
+    ? globalColor(`--${zwebPrefix}-white-01`)
+    : globalColor(`--${zwebPrefix}-red-03`)
   return colorStyle
 }

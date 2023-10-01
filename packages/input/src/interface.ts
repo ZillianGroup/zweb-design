@@ -9,7 +9,7 @@ import {
   RefAttributes,
   SyntheticEvent,
 } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type InputVariant = "fill" | "outline"
 export type InputSize = "small" | "medium" | "large"

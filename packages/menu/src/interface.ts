@@ -1,5 +1,5 @@
 import { HTMLAttributes, ReactNode, SyntheticEvent } from "react"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 
 export type MenuMode = "vertical" | "horizontal"
 

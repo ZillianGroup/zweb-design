@@ -1,8 +1,8 @@
 import { forwardRef, useState } from "react"
 import { TagProps } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { CloseIcon } from "@illa-design/icon"
-import { omit } from "@illa-design/system"
+import { CloseIcon } from "@zweb-design/icon"
+import { omit } from "@zweb-design/system"
 import {
   applyCloseIcon,
   colors,
@@ -18,7 +18,7 @@ import {
   tagSizeMediumStyle,
   tagSizeSmallStyle,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Tag = forwardRef<HTMLDivElement, TagProps>((props, ref) => {
   const {

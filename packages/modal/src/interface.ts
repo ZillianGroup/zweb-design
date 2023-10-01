@@ -1,6 +1,6 @@
 import { HTMLAttributes, MouseEvent, ReactNode } from "react"
-import { ButtonProps } from "@illa-design/button"
-import { BoxProps } from "@illa-design/theme"
+import { ButtonProps } from "@zweb-design/button"
+import { BoxProps } from "@zweb-design/theme"
 import { SerializedStyles } from "@emotion/react"
 
 export type ModalAlignType = "left" | "center" | "right" | ""

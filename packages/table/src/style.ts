@@ -1,6 +1,6 @@
 import chroma from "chroma-js"
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, globalColor, illaPrefix, zIndex } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix, zIndex } from "@zweb-design/theme"
 import { TableAlign, TableLayout, TableSize } from "./interface"
 
 export function applySizeStyle(
@@ -41,7 +41,7 @@ export function applyContainerStyle(): SerializedStyles {
   return css`
     display: flex;
     flex-direction: column;
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     position: relative;
   `
 }
@@ -70,14 +70,14 @@ export function applyBorderStyle(
       borderStyle = css``
     } else {
       borderStyle = css`
-        border-right: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+        border-right: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
       `
     }
   }
   let stripedStyle: SerializedStyles = css()
   if (striped) {
     stripedStyle = css`
-      border-bottom: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+      border-bottom: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     `
   }
   return css(borderStyle, stripedStyle)
@@ -87,7 +87,7 @@ export function applyTdSelectedStyle(selected?: boolean) {
   if (!selected) return css``
 
   return css`
-    box-shadow: inset 0 0 0 1px ${globalColor(`--${illaPrefix}-blue-03`)};
+    box-shadow: inset 0 0 0 1px ${globalColor(`--${zwebPrefix}-blue-03`)};
   `
 }
 
@@ -97,8 +97,8 @@ export function applyThStyle(): SerializedStyles {
     position: relative;
     font-size: 14px;
     font-weight: bold;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
 
     &:last-of-type {
       flex: 1 1 auto;
@@ -113,7 +113,7 @@ export function applyNormalStyle(): SerializedStyles {
     position: relative;
     font-size: 14px;
     min-height: 50px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
 
     &:last-of-type {
       flex: 1 1 auto;
@@ -123,20 +123,20 @@ export function applyNormalStyle(): SerializedStyles {
 
 export function applyNormalBg(): SerializedStyles {
   return css`
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
   `
 }
 
 export function applyBgHoverStyle(hoverable?: boolean): SerializedStyles {
   const hoverableStyle = css`
     &:hover {
-      background-color: ${chroma(globalColor(`--${illaPrefix}-grayBlue-09`))
+      background-color: ${chroma(globalColor(`--${zwebPrefix}-grayBlue-09`))
         .alpha(0.5)
         .hex()};
     }
   `
   return css`
-    background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
     ${hoverable ? hoverableStyle : null}
   `
 }
@@ -145,10 +145,10 @@ export function applySelectedStyle(selected?: boolean): SerializedStyles {
   if (!selected) return css``
 
   return css`
-    background-color: ${globalColor(`--${illaPrefix}-blue-07`)};
+    background-color: ${globalColor(`--${zwebPrefix}-blue-07`)};
 
     &:hover {
-      background-color: ${globalColor(`--${illaPrefix}-blue-07`)};
+      background-color: ${globalColor(`--${zwebPrefix}-blue-07`)};
     }
   `
 }
@@ -194,7 +194,7 @@ export const applyOverflowContentStyle = (
     ${lastCol ? "right" : "left"}: 0;
     ${lastRow ? "bottom" : "top"}: 0px;
     background-color: white;
-    border: solid 1px ${globalColor(`--${illaPrefix}-blue-03`)};
+    border: solid 1px ${globalColor(`--${zwebPrefix}-blue-03`)};
     box-sizing: border-box;
   `
 }
@@ -267,7 +267,7 @@ export function applyTableStyle(tableLayout: TableLayout): SerializedStyles {
 export function applyBorderedStyle(bordered?: boolean): SerializedStyles {
   return bordered
     ? css`
-        border: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+        border: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
       `
     : css``
 }
@@ -276,9 +276,9 @@ export const toolBarStyle = css`
   position: relative;
   text-align: center;
   overflow: auto;
-  border-top: 1px solid ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+  border-top: 1px solid ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
   padding: 8px 0;
-  background-color: ${globalColor(`--${illaPrefix}-white-01`)};
+  background-color: ${globalColor(`--${zwebPrefix}-white-01`)};
 `
 
 export function applyActionButtonStyle(
@@ -327,7 +327,7 @@ export const applyResizerTableHeaderStyle = (
   return enableColumnResizing
     ? css`
         &:hover > tr > th:not(:last-of-type) {
-          border-right: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+          border-right: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
         }
       `
     : css``
@@ -351,7 +351,7 @@ export const tableResizerStyle = css`
       top: 0;
       bottom: 0;
       right: 3px;
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-06`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-06`)};
       width: 1px;
     }
   }

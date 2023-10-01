@@ -2,7 +2,7 @@ import { forwardRef, useContext } from "react"
 import { TFootProps } from "./interface"
 import { css } from "@emotion/react"
 import { TableContext } from "./table-context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const TFoot = forwardRef<HTMLTableSectionElement, TFootProps>(
   (props, ref) => {

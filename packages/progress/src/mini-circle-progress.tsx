@@ -1,14 +1,14 @@
 import { forwardRef, ReactNode } from "react"
 import { ProgressProps } from "./interface"
-import { SuccessIcon, WarningCircleIcon } from "@illa-design/icon"
-import { Trigger } from "@illa-design/trigger"
+import { SuccessIcon, WarningCircleIcon } from "@zweb-design/icon"
+import { Trigger } from "@zweb-design/trigger"
 import { applyContainer } from "./common-style"
 import {
   applyCircleProgressContainer,
   applyCircleStatus,
   applyCircleSvgContainer,
 } from "./mini-circle-progress-style"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 
 export const MiniCircleProgress = forwardRef<HTMLDivElement, ProgressProps>(
   (props, ref) => {

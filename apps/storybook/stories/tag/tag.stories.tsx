@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Tag, TagProps, Space } from "@illa-design/react"
+import { Tag, TagProps, Space } from "@zweb-design/react"
 
 import { BsFacebook, BsTwitch, BsTwitter } from "react-icons/bs"
 

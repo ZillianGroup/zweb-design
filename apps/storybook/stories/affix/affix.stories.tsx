@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Button, useNotification, Affix, AffixProps } from "@illa-design/react"
+import { Button, useNotification, Affix, AffixProps } from "@zweb-design/react"
 import { CSSProperties, useRef } from "react"
 
 export default {

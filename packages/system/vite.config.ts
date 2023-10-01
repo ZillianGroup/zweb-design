@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/system",
+      name: "@zweb-design/system",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {

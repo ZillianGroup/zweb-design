@@ -9,7 +9,7 @@ import {
 import { NotificationProps } from "./interface"
 import { motion } from "framer-motion"
 import { notificationStore } from "./notification-store"
-import { applyBoxStyle, getColor } from "@illa-design/theme"
+import { applyBoxStyle, getColor } from "@zweb-design/theme"
 import {
   applyContentStyle,
   applyContentWrapperStyle,
@@ -26,7 +26,7 @@ import {
   InfoCircleIcon,
   SuccessCircleIcon,
   WarningCircleIcon,
-} from "@illa-design/icon"
+} from "@zweb-design/icon"
 
 export const Notification = forwardRef<HTMLDivElement, NotificationProps>(
   (props, ref) => {

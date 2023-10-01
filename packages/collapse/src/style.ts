@@ -1,6 +1,6 @@
 import { CollapsePosition } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 
 export function applyCollapseStyle(bordered?: boolean): SerializedStyles {
   const borderCSS = bordered

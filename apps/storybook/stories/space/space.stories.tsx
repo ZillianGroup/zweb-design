@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Space, SpaceProps, Tag } from "@illa-design/react"
+import { Space, SpaceProps, Tag } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

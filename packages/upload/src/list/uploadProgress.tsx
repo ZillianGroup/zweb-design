@@ -1,20 +1,20 @@
 import { FC, useContext } from "react"
 import { STATUS, UploadProgressProps } from "../interface"
-import { Progress } from "@illa-design/progress"
-import { UploadIcon, SuccessIcon } from "@illa-design/icon"
-import { isFunction } from "@illa-design/system"
+import { Progress } from "@zweb-design/progress"
+import { UploadIcon, SuccessIcon } from "@zweb-design/icon"
+import { isFunction } from "@zweb-design/system"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import {
   successIconStyle,
   uploadProgressFailStyle,
   uploadProgressStatus,
 } from "../style"
 import { handleKeyDown } from "../utils"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 const UploadProgress: FC<UploadProgressProps> = (props) => {
   const { file, progressProps, progressRender, onReupload, onUpload } = props
@@ -65,8 +65,8 @@ const UploadProgress: FC<UploadProgressProps> = (props) => {
             h="16px"
             status={progressStatus}
             percent={percent}
-            color={globalColor(`--${illaPrefix}-blue-03`)}
-            trailColor={globalColor(`--${illaPrefix}-blue-06`)}
+            color={globalColor(`--${zwebPrefix}-blue-03`)}
+            trailColor={globalColor(`--${zwebPrefix}-blue-06`)}
             {...progressProps}
           />
         </div>

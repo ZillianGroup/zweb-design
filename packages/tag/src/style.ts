@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from "@emotion/react"
 import { TagColorScheme, TagVariant, TagSize } from "./interface"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const tagContainer = css`
   display: inline-flex;
@@ -56,7 +56,7 @@ export const closeIcon = css`
   border-radius: 50%;
 
   &:hover {
-    background-color: ${globalColor(`--${illaPrefix}-grayBlue-07`)};
+    background-color: ${globalColor(`--${zwebPrefix}-grayBlue-07`)};
     cursor: pointer;
   }
 `
@@ -76,14 +76,14 @@ export function applyCloseIcon(
   if (variant === "fill") {
     variantCss = css`
       &:hover {
-        background-color: ${globalColor(`--${illaPrefix}-white-07`)};
+        background-color: ${globalColor(`--${zwebPrefix}-white-07`)};
       }
     `
   } else if (variant === "outline") {
     if (color === "gray" || color === "grayBlue") {
       variantCss = css`
         &:hover {
-          background-color: ${globalColor(`--${illaPrefix}-${color}-08`)};
+          background-color: ${globalColor(`--${zwebPrefix}-${color}-08`)};
         }
       `
     }
@@ -97,7 +97,7 @@ export function applyCloseIcon(
     border-radius: 50%;
 
     &:hover {
-      background-color: ${globalColor(`--${illaPrefix}-${color}-06`)};
+      background-color: ${globalColor(`--${zwebPrefix}-${color}-06`)};
       cursor: pointer;
     }
 
@@ -126,22 +126,22 @@ export function tagOutlinePrepare(color: TagColorScheme): SerializedStyles {
   if (color == "gray" || color == "grayBlue") {
     return css`
       border-radius: 4px;
-      border: solid 1px ${globalColor(`--${illaPrefix}-${color}-08`)};
-      color: ${globalColor(`--${illaPrefix}-${color}-02`)};
+      border: solid 1px ${globalColor(`--${zwebPrefix}-${color}-08`)};
+      color: ${globalColor(`--${zwebPrefix}-${color}-02`)};
     `
   } else {
     return css`
       border-radius: 4px;
-      border: solid 1px ${globalColor(`--${illaPrefix}-${color}-01`)};
-      color: ${globalColor(`--${illaPrefix}-${color}-01`)};
+      border: solid 1px ${globalColor(`--${zwebPrefix}-${color}-01`)};
+      color: ${globalColor(`--${zwebPrefix}-${color}-01`)};
     `
   }
 }
 
 export function tagFillPrepare(color: TagColorScheme): SerializedStyles {
   return css`
-    background-color: ${globalColor(`--${illaPrefix}-${color}-01`)};
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    background-color: ${globalColor(`--${zwebPrefix}-${color}-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
     border-radius: 4px;
   `
 }
@@ -150,14 +150,14 @@ export function tagLightPrepare(color: TagColorScheme): SerializedStyles {
   if (color == "grayBlue") {
     return css`
       border-radius: 4px;
-      background-color: ${globalColor(`--${illaPrefix}-${color}-09`)};
-      color: ${globalColor(`--${illaPrefix}-${color}-02`)};
+      background-color: ${globalColor(`--${zwebPrefix}-${color}-09`)};
+      color: ${globalColor(`--${zwebPrefix}-${color}-02`)};
     `
   } else {
     return css`
       border-radius: 4px;
-      background-color: ${globalColor(`--${illaPrefix}-${color}-07`)};
-      color: ${globalColor(`--${illaPrefix}-${color}-01`)};
+      background-color: ${globalColor(`--${zwebPrefix}-${color}-07`)};
+      color: ${globalColor(`--${zwebPrefix}-${color}-01`)};
     `
   }
 }
@@ -167,7 +167,7 @@ export function tagFillNormal(
 ): SerializedStyles {
   return css`
     border-radius: 4px;
-    color: ${globalColor(`--${illaPrefix}-white-01`)};
+    color: ${globalColor(`--${zwebPrefix}-white-01`)};
     background-color: ${color};
   `
 }

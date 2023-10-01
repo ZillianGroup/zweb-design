@@ -1,5 +1,5 @@
 import { css } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 
 export const commentContainerCss = css`
   display: inline-flex;
@@ -14,7 +14,7 @@ export const singleCommentContainerCss = css`
 
 export const contentCss = css`
   margin-top: 4px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
   font-size: 14px;
   font-family: SFProDisplay;
   margin-bottom: 8px;
@@ -61,7 +61,7 @@ export const authorTextCss = css`
   font-family: SFProDisplay;
   font-size: 14px;
   margin-right: 8px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)}; ;
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)}; ;
 `
 
 export const dateTimeTextCss = css`
@@ -70,7 +70,7 @@ export const dateTimeTextCss = css`
   font-weight: 400;
   font-family: SFProDisplay;
   font-size: 12px;
-  color: ${globalColor(`--${illaPrefix}-grayBlue-04`)};
+  color: ${globalColor(`--${zwebPrefix}-grayBlue-04`)};
 `
 
 export function applyActionCss(align: string) {
@@ -83,7 +83,7 @@ export function applyActionCss(align: string) {
   return css`
     ${alignCss};
     font-size: 14px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-03`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-03`)};
 
     > *:not(:last-child) {
       margin-right: 8px;

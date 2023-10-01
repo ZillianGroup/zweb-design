@@ -1,4 +1,4 @@
-import { getColor, globalColor, illaPrefix } from "@illa-design/theme"
+import { getColor, globalColor, zwebPrefix } from "@zweb-design/theme"
 import { CheckboxColorScheme, CheckboxProps } from "./interface"
 import { css, SerializedStyles } from "@emotion/react"
 
@@ -28,7 +28,7 @@ export function applyCheckboxSize(
     margin: auto;
     width: 16px;
     height: 16px;
-    border: solid 2px ${globalColor(`--${illaPrefix}-grayBlue-08`)};
+    border: solid 2px ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
     cursor: pointer;
     transition: 0.15s all linear;
 
@@ -38,8 +38,8 @@ export function applyCheckboxSize(
 
     &:disabled {
       cursor: not-allowed;
-      border-color: ${globalColor(`--${illaPrefix}-grayBlue-08`)};
-      background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+      border-color: ${globalColor(`--${zwebPrefix}-grayBlue-08`)};
+      background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
     }
 
     ${checkedCss}
@@ -73,7 +73,7 @@ export function applyMergeCss(props: CheckboxProps): SerializedStyles {
     justify-content: center;
     font-size: 14px;
     line-height: 22px;
-    color: ${globalColor(`--${illaPrefix}-grayBlue-02`)};
+    color: ${globalColor(`--${zwebPrefix}-grayBlue-02`)};
     cursor: ${currentDisabled ? "not-allowed" : "pointer"};
   `
 }

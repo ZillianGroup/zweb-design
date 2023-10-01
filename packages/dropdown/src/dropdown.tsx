@@ -1,7 +1,7 @@
 import { FC } from "react"
 import { DropdownProps } from "./interface"
-import { Trigger } from "@illa-design/trigger"
-import { useMergeValue } from "@illa-design/system"
+import { Trigger } from "@zweb-design/trigger"
+import { useMergeValue } from "@zweb-design/system"
 
 export const Dropdown: FC<DropdownProps> = (props) => {
   const {

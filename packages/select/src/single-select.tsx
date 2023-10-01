@@ -17,12 +17,12 @@ import {
   SelectProps,
   SelectValue,
 } from "./interface"
-import { Input } from "@illa-design/input"
-import { Dropdown, DropList, DropListItem } from "@illa-design/dropdown"
-import { useMergeValue } from "@illa-design/system"
-import { DownIcon, LoadingIcon, UpIcon } from "@illa-design/icon"
-import { getColor } from "@illa-design/theme"
-import { Empty } from "@illa-design/empty"
+import { Input } from "@zweb-design/input"
+import { Dropdown, DropList, DropListItem } from "@zweb-design/dropdown"
+import { useMergeValue } from "@zweb-design/system"
+import { DownIcon, LoadingIcon, UpIcon } from "@zweb-design/icon"
+import { getColor } from "@zweb-design/theme"
+import { Empty } from "@zweb-design/empty"
 import { dropLabelStyle, dropListItemStyle } from "./style"
 
 export const SingleSelect = forwardRef<HTMLInputElement, SelectProps>(

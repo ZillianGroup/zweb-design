@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Text, TextProps, Typography } from "@illa-design/react"
+import { Text, TextProps, Typography } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {

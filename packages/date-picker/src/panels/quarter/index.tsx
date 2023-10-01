@@ -6,9 +6,9 @@ import { Dayjs } from "dayjs"
 import { padStart } from "../../utils/pad"
 import { quarterPanelStyle } from "./style"
 import { BasicHeaderSection } from "../basic-header-section"
-import { NextDoubleIcon, PreviousDoubleIcon } from "@illa-design/icon"
+import { NextDoubleIcon, PreviousDoubleIcon } from "@zweb-design/icon"
 import { YearPickerPanel } from "../year"
-import { dayjsPro } from "@illa-design/system"
+import { dayjsPro } from "@zweb-design/system"
 
 const isSameTime = (current: Dayjs, target: Dayjs) =>
   current.isSame(target, "month")

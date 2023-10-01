@@ -35,7 +35,7 @@ import {
   useMergeRefs,
   useRole,
 } from "@floating-ui/react"
-import { applyBoxStyle } from "@illa-design/theme"
+import { applyBoxStyle } from "@zweb-design/theme"
 import { AnimatePresence, motion } from "framer-motion"
 import {
   cloneElement,
@@ -334,7 +334,7 @@ export const Trigger: FC<TriggerProps> = (props) => {
       {cloneElement(
         children as ReactElement,
         getReferenceProps({
-          key: "illa-trigger",
+          key: "zweb-trigger",
           ...(children as any).props,
           ref: mergedRef,
           onContextMenu: (e) => {

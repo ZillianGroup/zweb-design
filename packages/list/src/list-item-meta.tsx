@@ -6,14 +6,14 @@ import {
   applyListItemMetaTitleStyle,
   applyTypoStyle,
 } from "./style"
-import { Avatar } from "@illa-design/avatar"
-import { Paragraph, Text, Typography } from "@illa-design/typography"
+import { Avatar } from "@zweb-design/avatar"
+import { Paragraph, Text, Typography } from "@zweb-design/typography"
 import {
   applyBoxStyle,
   deleteCssProps,
   globalColor,
-  illaPrefix,
-} from "@illa-design/theme"
+  zwebPrefix,
+} from "@zweb-design/theme"
 
 export const ListItemMeta = forwardRef<HTMLDivElement, ListItemMetaProps>(
   (props, ref) => {
@@ -46,8 +46,8 @@ export const ListItemMeta = forwardRef<HTMLDivElement, ListItemMetaProps>(
               fs="14px"
               colorScheme={
                 title == undefined
-                  ? globalColor(`--${illaPrefix}-grayBlue-02`)
-                  : globalColor(`--${illaPrefix}-grayBlue-04`)
+                  ? globalColor(`--${zwebPrefix}-grayBlue-02`)
+                  : globalColor(`--${zwebPrefix}-grayBlue-04`)
               }
             >
               {description}

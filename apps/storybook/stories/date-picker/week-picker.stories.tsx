@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { SingleWeekPickerProps, SingleWeekPicker } from "@illa-design/react"
+import { SingleWeekPickerProps, SingleWeekPicker } from "@zweb-design/react"
 
 export default {
   title: "DATA INPUT/DatePicker",

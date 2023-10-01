@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Slider, SliderProps } from "@illa-design/react"
+import { Slider, SliderProps } from "@zweb-design/react"
 
 export default {
   title: "DATA INPUT/Slider",

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Timeline, TimelineProps, TimelineItem } from "@illa-design/react"
+import { Timeline, TimelineProps, TimelineItem } from "@zweb-design/react"
 
 export default {
   title: "DATA DISPLAY/Timeline",

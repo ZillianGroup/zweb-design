@@ -5,7 +5,7 @@ import {
   ThHTMLAttributes,
 } from "react"
 import { TableData } from "./table-data"
-import { BoxProps } from "@illa-design/theme"
+import { BoxProps } from "@zweb-design/theme"
 import {
   ColumnDef,
   ColumnFiltersState,
@@ -21,8 +21,8 @@ import {
   Table,
   Row,
 } from "@tanstack/react-table"
-import { EmptyProps } from "@illa-design/empty"
-import { PaginationProps } from "@illa-design/pagination"
+import { EmptyProps } from "@zweb-design/empty"
+import { PaginationProps } from "@zweb-design/pagination"
 
 export type TableSize = "small" | "medium" | "large"
 

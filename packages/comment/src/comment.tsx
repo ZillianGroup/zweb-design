@@ -12,7 +12,7 @@ import {
   avatarContainerCSS,
   singleCommentContainerCss,
 } from "./style"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Comment = forwardRef<HTMLDivElement, CommentProps>(
   (props, ref) => {

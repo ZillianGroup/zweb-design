@@ -1,9 +1,9 @@
 import { Children, forwardRef } from "react"
 import { HeadingProps } from "./interface"
 import { Base } from "./base"
-import { Trigger } from "@illa-design/trigger"
-import { mergedToString } from "@illa-design/system"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { Trigger } from "@zweb-design/trigger"
+import { mergedToString } from "@zweb-design/system"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Heading = forwardRef<HTMLHeadingElement, HeadingProps>(
   (props, ref) => {

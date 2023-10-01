@@ -1,6 +1,6 @@
 import { ChangeEvent, forwardRef, useContext } from "react"
-import { useMergeValue } from "@illa-design/system"
-import { ReduceIcon, SuccessIcon } from "@illa-design/icon"
+import { useMergeValue } from "@zweb-design/system"
+import { ReduceIcon, SuccessIcon } from "@zweb-design/icon"
 import { CheckboxOption, CheckboxProps } from "./interface"
 import {
   applyCheckboxSize,
@@ -9,7 +9,7 @@ import {
   childrenContainerCss,
 } from "./style"
 import { CheckboxGroupContext } from "./context"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
 
 export const Checkbox = forwardRef<HTMLLabelElement, CheckboxProps>(
   (props, ref) => {

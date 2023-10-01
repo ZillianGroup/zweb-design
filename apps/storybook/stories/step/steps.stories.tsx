@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Steps, StepsProps } from "@illa-design/react"
+import { Steps, StepsProps } from "@zweb-design/react"
 
 export default {
   title: "NAVIGATION/Steps",

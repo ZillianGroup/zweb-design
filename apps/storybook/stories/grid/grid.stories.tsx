@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Col, Row, globalColor, illaPrefix } from "@illa-design/react"
+import { Col, Row, globalColor, zwebPrefix } from "@zweb-design/react"
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,7 +8,7 @@ export default {
 
 export const Basic: StoryFn = () => (
   <Row
-    style={{ backgroundColor: globalColor(`--${illaPrefix}-blackAlpha-06`) }}
+    style={{ backgroundColor: globalColor(`--${zwebPrefix}-blackAlpha-06`) }}
     horizontalGap={{ xs: "40px" }}
     verticalGap={{ xs: "80px" }}
     justify="end"
@@ -19,7 +19,7 @@ export const Basic: StoryFn = () => (
         style={{
           borderRadius: "6px",
           height: "50px",
-          backgroundColor: globalColor(`--${illaPrefix}-blue-03`),
+          backgroundColor: globalColor(`--${zwebPrefix}-blue-03`),
           color: "white",
         }}
       >
@@ -31,7 +31,7 @@ export const Basic: StoryFn = () => (
         style={{
           borderRadius: "6px",
           height: "80px",
-          backgroundColor: globalColor(`--${illaPrefix}-blue-02`),
+          backgroundColor: globalColor(`--${zwebPrefix}-blue-02`),
           color: "white",
         }}
       >

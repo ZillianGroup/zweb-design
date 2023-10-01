@@ -1,5 +1,5 @@
 import { css, keyframes, SerializedStyles } from "@emotion/react"
-import { getColor } from "@illa-design/theme"
+import { getColor } from "@zweb-design/theme"
 import { SpinColorScheme, SpinSize } from "./interface"
 
 export function applyContainerStyle(block?: boolean): SerializedStyles {

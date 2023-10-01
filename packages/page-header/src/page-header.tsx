@@ -7,10 +7,10 @@ import {
   subTitleCss,
   titleStyle,
 } from "./style"
-import { Breadcrumb } from "@illa-design/breadcrumb"
-import { PreviousIcon } from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps } from "@illa-design/theme"
-import { Divider } from "@illa-design/divider"
+import { Breadcrumb } from "@zweb-design/breadcrumb"
+import { PreviousIcon } from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps } from "@zweb-design/theme"
+import { Divider } from "@zweb-design/divider"
 
 export const PageHeader = forwardRef<HTMLDivElement, PageHeaderProps>(
   (props, ref) => {

@@ -5,7 +5,7 @@ import {
   padStart,
   toLocal,
   dayjsPro,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import type { Dayjs } from "dayjs"
 import { TimePickerPopupProps } from "./interface"
 import { getColumnsFromFormat } from "../utils"
@@ -14,8 +14,8 @@ import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
-} from "@illa-design/config-provider"
-import { Button } from "@illa-design/button"
+} from "@zweb-design/config-provider"
+import { Button } from "@zweb-design/button"
 import { HoursColumn } from "./hoursColumn"
 import { MinutesColumn } from "./minutesColumn"
 import { SecondsColumn } from "./secondsColumn"

@@ -16,7 +16,7 @@ export default defineConfig({
     minify: "esbuild",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@illa-design/radio",
+      name: "@zweb-design/radio",
       fileName: (format) => `${format}/index.js`,
     },
     rollupOptions: {
@@ -37,10 +37,10 @@ export default defineConfig({
         "react-dom",
         "@emotion/react",
         "framer-motion",
-        "@illa-design/system",
-        "@illa-design/theme",
-        "@illa-design/space",
-        "@illa-design/theme",
+        "@zweb-design/system",
+        "@zweb-design/theme",
+        "@zweb-design/space",
+        "@zweb-design/theme",
       ],
       output: {
         globals: {
@@ -48,9 +48,9 @@ export default defineConfig({
           "react-dom": "ReactDom",
           "@emotion/react": "@emotion/react",
           "framer-motion": "framer-motion",
-          "@illa-design/system": "@illa-design/system",
-          "@illa-design/theme": "@illa-design/theme",
-          "@illa-design/space": "@illa-design/space",
+          "@zweb-design/system": "@zweb-design/system",
+          "@zweb-design/theme": "@zweb-design/theme",
+          "@zweb-design/space": "@zweb-design/space",
         },
       },
     },

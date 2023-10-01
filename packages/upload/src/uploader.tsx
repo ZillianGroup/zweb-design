@@ -16,7 +16,7 @@ import {
 import uploadRequestSender from "./request"
 import { AnimatePresence, motion } from "framer-motion"
 import TriggerNode from "./trigger-node"
-import { isFunction, isFile, isNumber } from "@illa-design/system"
+import { isFunction, isFile, isNumber } from "@zweb-design/system"
 import { isAcceptFile } from "./utils"
 import { v4 } from "uuid"
 

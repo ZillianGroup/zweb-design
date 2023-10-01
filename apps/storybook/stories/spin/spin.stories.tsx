@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react"
-import { Spin, SpinProps } from "@illa-design/react"
+import { Spin, SpinProps } from "@zweb-design/react"
 import { css } from "@emotion/react"
 
 //👇 This default export determines where your story goes in the story list

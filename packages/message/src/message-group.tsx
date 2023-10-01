@@ -4,7 +4,7 @@ import { MessageProps } from "./interface"
 import { applyBottomContainer, applyTopContainer } from "./style"
 import { messageStore } from "./message-store"
 import { Message } from "./message"
-import { applyBoxStyle, BoxProps } from "@illa-design/theme"
+import { applyBoxStyle, BoxProps } from "@zweb-design/theme"
 
 export const MessageGroup: FC<BoxProps> = (props) => {
   const [topMessageList, setTopMessageList] = useState<MessageProps[]>([])

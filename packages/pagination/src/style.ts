@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { getColor, getColorShadow } from "@illa-design/theme"
+import { getColor, getColorShadow } from "@zweb-design/theme"
 import { PaginationSize } from "./interface"
 
 export const paginationContainer = css`

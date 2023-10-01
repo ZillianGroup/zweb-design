@@ -8,10 +8,10 @@ import {
 } from "react"
 import { BreadcrumbProps } from "./interface"
 import { breadcrumbContainerStyle, dividerStyle, dotStyle } from "./style"
-import { SlashIcon } from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+import { SlashIcon } from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 import { BreadcrumbItem } from "./breadcrumbItem"
-import { DropList, DropListItem } from "@illa-design/dropdown"
+import { DropList, DropListItem } from "@zweb-design/dropdown"
 import { BreadcrumbContext } from "./breadcrumb-context"
 
 export const Breadcrumb = forwardRef<HTMLDivElement, BreadcrumbProps>(

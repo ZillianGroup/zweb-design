@@ -27,7 +27,7 @@ import {
   toLocal,
   toTimezone,
   usePrevious,
-} from "@illa-design/system"
+} from "@zweb-design/system"
 import {
   getAvailableDayjsLength,
   getLocaleDayjsValue,
@@ -35,13 +35,13 @@ import {
 } from "./utils/dateHelper"
 import { useUpdate } from "./utils/hooks"
 import { DateInputRangeHandler } from "./input/interface"
-import { CalendarIcon, TimeIcon } from "@illa-design/icon"
+import { CalendarIcon, TimeIcon } from "@zweb-design/icon"
 import { PickerContext } from "./context"
-import { Trigger } from "@illa-design/trigger"
+import { Trigger } from "@zweb-design/trigger"
 import { RangeDateInput } from "./input/rangeInput"
 import { RangePickerPanel } from "./panels/range"
 import { BasicFooterSection } from "./panels/basic-footer-section"
-import { applyBoxStyle } from "@illa-design/theme"
+import { applyBoxStyle } from "@zweb-design/theme"
 
 export const RangeDatePicker = forwardRef<HTMLDivElement, RangeDatePickerProps>(
   (props, ref) => {

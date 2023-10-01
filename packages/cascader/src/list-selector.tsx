@@ -5,13 +5,13 @@ import {
   SelectorOption,
   SelectorProps,
 } from "./interface"
-import { Checkbox } from "@illa-design/checkbox"
+import { Checkbox } from "@zweb-design/checkbox"
 import {
   applyListSelectorItemTextStyle,
   applyListSelectorSingleItemStyle,
   listSelectorContainerStyle,
 } from "./style"
-import { Empty } from "@illa-design/empty"
+import { Empty } from "@zweb-design/empty"
 import { traversalOptions } from "./util"
 
 export const ListSelector = forwardRef<HTMLDivElement, SelectorProps>(

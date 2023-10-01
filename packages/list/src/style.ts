@@ -1,5 +1,5 @@
 import { css, SerializedStyles } from "@emotion/react"
-import { globalColor, illaPrefix } from "@illa-design/theme"
+import { globalColor, zwebPrefix } from "@zweb-design/theme"
 import { ListSize } from "./interface"
 
 export function applyListContainer(bordered?: boolean): SerializedStyles {
@@ -10,7 +10,7 @@ export function applyListContainer(bordered?: boolean): SerializedStyles {
   if (bordered) {
     containerCss = css`
       ${containerCss};
-      border: solid 1px ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+      border: solid 1px ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
       border-radius: 2px;
     `
   }
@@ -22,7 +22,7 @@ export function applyListItemOuter(hoverable?: boolean): SerializedStyles {
   if (hoverable) {
     hoverableCss = css`
       &:hover {
-        background-color: ${globalColor(`--${illaPrefix}-grayBlue-09`)};
+        background-color: ${globalColor(`--${zwebPrefix}-grayBlue-09`)};
       }
     `
   }

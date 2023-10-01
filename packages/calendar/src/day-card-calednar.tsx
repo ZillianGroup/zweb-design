@@ -14,15 +14,15 @@ import {
   NextIcon,
   PreviousDoubleIcon,
   PreviousIcon,
-} from "@illa-design/icon"
-import { applyBoxStyle, deleteCssProps, getColor } from "@illa-design/theme"
+} from "@zweb-design/icon"
+import { applyBoxStyle, deleteCssProps, getColor } from "@zweb-design/theme"
 import {
   ConfigProviderContext,
   ConfigProviderProps,
   def,
   koKR,
   zhCN,
-} from "@illa-design/config-provider"
+} from "@zweb-design/config-provider"
 import { getMonthString } from "./util"
 import { applyDividerStyle } from "./style"
 import dayjs from "dayjs"

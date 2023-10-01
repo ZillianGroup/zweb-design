@@ -1,15 +1,15 @@
 {
-  "name": "@illa-design/system",
+  "name": "@zweb-design/system",
   "version": "1.0.28",
-  "description": "Illa Design base.",
+  "description": "ZWeb Design base.",
   "keywords": [
     "system",
     "react",
     "component"
   ],
   "sideEffects": false,
-  "author": "ILLA Cloud <opensource@illasoft.com>",
-  "homepage": "https://github.com/illacloud/illa-design",
+  "author": "ZWEB Cloud <opensource@zilliangroup.com>",
+  "homepage": "https://github.com/zilliangroup/zweb-design",
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "publishConfig": {
@@ -30,11 +30,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/illacloud/illa-design.git",
+    "url": "git+https://github.com/zilliangroup/zweb-design.git",
     "directory": "packages/system"
   },
   "bugs": {
-    "url": "https://github.com/illacloud/illa-design/issues"
+    "url": "https://github.com/zilliangroup/zweb-design/issues"
   },
   "dependencies": {
     "dayjs": "^1.11.7"
